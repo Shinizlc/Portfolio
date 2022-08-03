@@ -1,0 +1,3204 @@
+
+
+
+###################################
+DATA From database PRO-ADB011:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:10:14 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:54:42 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  2360705004
+ 62370073004
+  2360705004
+  2360705004
+  2360705004
+  2367165004
+  2322450004
+  1959878020
+  2360705004
+  2360705004
+  1959878020
+  2360705004
+  2360705004
+ 62370073004
+  2360705004
+ 62370073004
+ 62370073004
+  2360705004
+  2360705004
+ 62370073004
+ 62370073004
+ 62370073004
+ 62370073004
+  2360705004
+ 62370073004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  1802043004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  1610183004
+  2360705004
+  2360705004
+  1802043004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+
+94 rows selected.
+
+
+      USERID
+------------
+  2360705004
+  1802043004
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB012:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:10:23 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:54:50 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  2360705004
+  2360705004
+  2367165004
+  2360705004
+  2360705004
+  1959878020
+  2360705004
+  2322450004
+  1959878020
+  2360705004
+  2360705004
+  2360705004
+ 62370073004
+  2360705004
+ 62370073004
+ 62370073004
+  2360705004
+ 62370073004
+ 62370073004
+ 62370073004
+ 62370073004
+ 62370073004
+ 62370073004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  1802043004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  1610183004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  1802043004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+  2360705004
+
+94 rows selected.
+
+
+      USERID
+------------
+  1802043004
+  2360705004
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB021:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:10:32 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:54:57 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+ 62422000006
+ 62676828007
+ 62422000006
+ 62422000006
+ 62422000006
+ 62422000006
+ 62422000006
+ 62422000006
+ 62422000006
+ 62422000006
+ 62378527006
+ 62378527006
+ 62422000006
+   184884031
+   184884031
+ 62378527006
+
+16 rows selected.
+
+
+      USERID
+------------
+ 62422000006
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB022:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:10:38 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:55:03 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+ 62422000006
+ 62422000006
+ 62422000006
+ 62422000006
+ 62422000006
+ 62422000006
+ 62378527006
+ 62422000006
+ 62422000006
+ 62422000006
+   184884031
+ 62378527006
+ 62378527006
+ 62422000006
+ 62676828007
+   184884031
+
+16 rows selected.
+
+
+      USERID
+------------
+ 62422000006
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB031:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:10:45 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:55:08 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   476317009
+   333274009
+   333274009
+   333274009
+   333274009
+
+
+      USERID
+------------
+   333274009
+   333274009
+   333274009
+   333274009
+   333274009
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB032:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:10:52 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:55:14 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   476317009
+   333274009
+   333274009
+   333274009
+   333274009
+
+
+      USERID
+------------
+   333274009
+   333274009
+   333274009
+   333274009
+   333274009
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB041:ERROR:
+Error while trying to retrieve text for error ORA-01804
+
+
+SP2-0152: ORACLE may not be functioning properly
+
+
+
+###################################
+DATA From database PRO-ADB042:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:00 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:55:29 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2038560021
+  2129699011
+  2038560021
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2038560021
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2038560021
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  3479784020
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  3494241020
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  3494241020
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+
+91 rows selected.
+
+
+      USERID
+------------
+  3494241020
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2129699011
+  2038560021
+
+11 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB051:ERROR:
+Error while trying to retrieve text for error ORA-01804
+
+
+SP2-0152: ORACLE may not be functioning properly
+
+
+
+###################################
+DATA From database PRO-ADB052:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:09 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:55:37 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1096183008
+  1096183008
+  3016611020
+    64404715
+  3016611020
+  3016611020
+  1913479021
+  1913479021
+  3016611020
+
+9 rows selected.
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB061:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:14 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:55:42 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  2321074020
+  1750902021
+  1636820021
+  1636820021
+  2572552015
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1750902021
+  1750902021
+  1750902021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+
+103 rows selected.
+
+
+      USERID
+------------
+  1636820021
+  1636820021
+  2588455015
+  1636820021
+  1636820021
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB062:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:22 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:55:51 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  2321074020
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  2572552015
+  1750902021
+  1636820021
+  1636820021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1750902021
+  1750902021
+  1750902021
+  1636820021
+  1636820021
+  1636820021
+  1750902021
+  1636820021
+  1636820021
+  1636820021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1636820021
+  1750902021
+  1636820021
+  1636820021
+  1750902021
+  1750902021
+  1750902021
+  1750902021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+  1750902021
+  1750902021
+  1750902021
+  1636820021
+  1636820021
+  1636820021
+  1636820021
+
+103 rows selected.
+
+
+      USERID
+------------
+  1636820021
+  1636820021
+  1636820021
+  2588455015
+  1636820021
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB071:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:29 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:55:57 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+ 62111197016
+ 62111197016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+   339870016
+ 62111197016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+   339870016
+   339870016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+   339870016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   397390044
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+
+122 rows selected.
+
+
+      USERID
+------------
+ 62111197016
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB072:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:39 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:56:05 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+ 62111197016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+   339870016
+   339870016
+   339870016
+   339870016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   339870016
+ 62111197016
+   339870016
+   339870016
+   339870016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+   397390044
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+ 62111197016
+
+122 rows selected.
+
+
+      USERID
+------------
+ 62111197016
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB081:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:46 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:56:12 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  2202648020
+  2202648020
+  2202648020
+
+
+      USERID
+------------
+  2202648020
+  2202648020
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB082:ERROR:
+Error while trying to retrieve text for error ORA-01804
+
+
+SP2-0152: ORACLE may not be functioning properly
+
+
+
+###################################
+DATA From database PRO-ADB091:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:52 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:56:24 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB092:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:11:57 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:56:29 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB101:ERROR:
+Error while trying to retrieve text for error ORA-01804
+
+
+SP2-0152: ORACLE may not be functioning properly
+
+
+
+###################################
+DATA From database PRO-ADB102:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:02 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:56:39 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   293196023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+ 62400042023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+   169432023
+ 62447553023
+   169432023
+   169432023
+
+26 rows selected.
+
+
+      USERID
+------------
+   169432023
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB111:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:10 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:56:45 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1169646024
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB112:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:19 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:56:50 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1169646024
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB121:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:25 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:56:55 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   190078027
+   190078027
+   190078027
+   160213027
+   190078027
+  1304420021
+   298049027
+   298049027
+   190078027
+   190078027
+   190078027
+   190078027
+
+12 rows selected.
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB122:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:31 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:00 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   190078027
+   190078027
+   190078027
+   160213027
+   190078027
+   298049027
+   298049027
+  1304420021
+   190078027
+   190078027
+   190078027
+   190078027
+
+12 rows selected.
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB131:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:35 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:05 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   234337028
+   265933028
+   262345028
+   262345028
+   262345028
+   262345028
+   262345028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   295753028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   295753028
+   240720028
+   302645029
+   240720028
+   240720028
+ 63102398028
+
+32 rows selected.
+
+
+      USERID
+------------
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+
+7 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB132:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:43 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:10 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   234337028
+   265933028
+   240720028
+   240720028
+   262345028
+   262345028
+   262345028
+   262345028
+   262345028
+   240720028
+   240720028
+   240720028
+   240720028
+   295753028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   295753028
+   240720028
+   240720028
+ 63102398028
+   302645029
+   240720028
+   240720028
+
+32 rows selected.
+
+
+      USERID
+------------
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+   240720028
+
+7 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB141:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:50 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:15 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   229601031
+ 62646138031
+   235438031
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB142:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:12:58 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:20 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   229601031
+ 62646138031
+   235438031
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB151:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:03 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:25 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   422708032
+   422708032
+   422708032
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB152:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:09 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:31 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   422708032
+   422708032
+   422708032
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB161:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:13 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:36 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1934366020
+  1934366020
+  1934366020
+  1934366020
+  1887954020
+   230157035
+
+6 rows selected.
+
+
+      USERID
+------------
+  1934366020
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB162:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:19 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:42 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1934366020
+  1934366020
+  1934366020
+  1934366020
+   230157035
+  1887954020
+
+6 rows selected.
+
+
+      USERID
+------------
+  1934366020
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB171:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:24 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:47 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  2465088036
+
+32 rows selected.
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB172:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:30 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:52 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  1679802020
+  2465088036
+
+32 rows selected.
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB191:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:36 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:57:57 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   303917040
+   305609040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   525179040
+   399014040
+
+14 rows selected.
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB192:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:44 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:58:02 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   305609040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   773327040
+   525179040
+   399014040
+   303917040
+
+14 rows selected.
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB201:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:49 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB202:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:55 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB211:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:13:59 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+      USERID
+------------
+   397390044
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB212:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:06 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+      USERID
+------------
+   397390044
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB221:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:12 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB222:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:18 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB231:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:23 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:58:48 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB232:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:29 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:58:55 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB241:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:35 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:59:02 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB242:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:41 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:59:08 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB311:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:47 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:46:51 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   948311064
+   948311064
+   710388064
+   385988065
+   385988065
+   385988065
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+   948311064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1523557064
+  1198965064
+  1198965064
+  1523557064
+  1583724064
+  1583724064
+  1583724064
+  1479146064
+  1523557064
+  1479146064
+  1198965064
+  1523557064
+   948311064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1569351064
+  1198965064
+  1198965064
+  1198965064
+   948311064
+  1198965064
+  1198965064
+   948311064
+   948311064
+  1198965064
+   948311064
+   948311064
+   948311064
+   948311064
+  1198965064
+   948311064
+  1198965064
+  1198965064
+  1198965064
+   948311064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1583724064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1583724064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1535786064
+  2060435064
+   948311064
+  1198965064
+  1198965064
+   948311064
+  2060435064
+  2060435064
+  1198965064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  1198965064
+  2060435064
+  2322055064
+  1198965064
+  1198965064
+  2060435064
+  2060435064
+
+165 rows selected.
+
+
+      USERID
+------------
+  1198965064
+   623027064
+  1178786064
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB312:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:50 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:59:11 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+   948311064
+   948311064
+   710388064
+  1198965064
+  1198965064
+   385988065
+   385988065
+   948311064
+   385988065
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+   948311064
+   948311064
+  1198965064
+  1583724064
+  1583724064
+  1583724064
+  1198965064
+  1198965064
+  1479146064
+  1523557064
+  1523557064
+  1523557064
+  1523557064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1479146064
+   948311064
+   948311064
+  1569351064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+   948311064
+   948311064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+   948311064
+   948311064
+   948311064
+   948311064
+   948311064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1583724064
+  1583724064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+  1198965064
+   948311064
+  1535786064
+  1198965064
+  1198965064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  1198965064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  2060435064
+  1198965064
+  2060435064
+  2322055064
+  1198965064
+  1198965064
+  2060435064
+  2060435064
+
+165 rows selected.
+
+
+      USERID
+------------
+  1198965064
+  1178786064
+   623027064
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB321:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:54 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:59:16 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1307876064
+  1307876064
+  1307876064
+   290924067
+   290924067
+   272547066
+   574173067
+   272547066
+   272547066
+   272547066
+   272547066
+   272547066
+   387496067
+   384547067
+   384547067
+
+15 rows selected.
+
+
+      USERID
+------------
+   387496067
+   387496067
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB322:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:56 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:59:19 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+      USERID
+------------
+  1307876064
+  1307876064
+  1307876064
+   290924067
+   290924067
+   574173067
+   272547066
+   272547066
+   272547066
+   272547066
+   272547066
+   272547066
+   387496067
+   384547067
+   384547067
+
+15 rows selected.
+
+
+      USERID
+------------
+   387496067
+   387496067
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB331:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:14:59 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB332:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:02 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB341:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:04 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+      USERID
+------------
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+
+175 rows selected.
+
+
+      USERID
+------------
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+
+15 rows selected.
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB342:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:07 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+      USERID
+------------
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+
+175 rows selected.
+
+
+      USERID
+------------
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+   169499071
+
+15 rows selected.
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB351:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:11 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:59:35 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB352:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:13 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:59:37 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB361:ERROR:
+Error while trying to retrieve text for error ORA-01804
+
+
+SP2-0152: ORACLE may not be functioning properly
+
+
+
+###################################
+DATA From database PRO-ADB362:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:15 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 15:59:41 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB611:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:17 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB612:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:24 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+With the Automatic Storage Management option
+
+
+
+###################################
+DATA From database PRO-ADB631:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:31 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 16:00:03 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB632:
+SQL*Plus: Release 12.2.0.1.0 Production on Tue Jun 28 16:15:39 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Jun 28 2022 16:00:13 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
