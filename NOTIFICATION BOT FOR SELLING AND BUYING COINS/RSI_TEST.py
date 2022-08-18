@@ -35,7 +35,7 @@ class RSI(Buy_sell_notification):
 
 
 
-rsi = RSI('BTCUSDT')
+rsi = RSI('MOVRUSDT')
 print(rsi.RSI())
 
 

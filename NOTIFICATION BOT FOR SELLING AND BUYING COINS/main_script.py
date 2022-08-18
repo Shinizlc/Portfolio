@@ -22,7 +22,8 @@ class Buy_sell_notification:
     api_key='ICsom6L51EeTLXpP8l3K8vRM7Z7fiCQsUjKxnzaiJWzOeF111HpAI0UR1tyH1W58'
     api_secret='WPVX7PiQKLvJ07JKPQJC1tReYEAdE73UGnOqqBNSzL1yeMWb8qx1O45U4e7QpRRn'
     percent=0.2
-    ammount_usdt=350
+    ammount_usdt=500
+    RSI_threshold = 40
     def __init__(self,coin):
         self.coin = coin
         self.client = Client(Buy_sell_notification.api_key, Buy_sell_notification.api_secret)
@@ -31,9 +32,12 @@ class Buy_sell_notification:
     def get_current_price(self):
         return float(self.client.get_symbol_ticker(symbol=self.coin)['price'])
 
+    def get_symbol_info(self):
+        return self.client.get_symbol_info(self.coin)
 
     def get_quantity(self):
-        return round(Buy_sell_notification.ammount_usdt/self.get_current_price(),2)
+        qnt = round(Buy_sell_notification.ammount_usdt/self.get_current_price(),2)
+        return qnt
 
 
     def make_buy_order(self):
@@ -90,8 +94,8 @@ class Buy_sell_notification:
                 elif current_price<=grid_price-grid_price*Buy_sell_notification.percent and buy_status==True and self.get_balance('USDT')>=Buy_sell_notification.ammount_usdt:
                     self.make_buy_order()
                     self.send_notification('BUY')
-                    #продали, но актив еще не перекуплен(RSI<50) тогда покупаем еще
-                elif buy_status==False and self.RSI()<50:
+                    #продали, но актив еще не перекуплен(RSI<40) тогда покупаем еще
+                elif buy_status==False and self.RSI()<=Buy_sell_notification.RSI_threshold:
                     self.make_buy_order()
                     self.send_notification('BUY')
                 #купили и цена пошла вверх => Продаем
@@ -102,7 +106,7 @@ class Buy_sell_notification:
                     print(f'pending, current_price of {self.coin} is {current_price},grid_price {grid_price}, diff is {((current_price-grid_price)/grid_price)*100}')
                 sleep(300)
             else:
-                if self.RSI()<50:#можно добавить условие, что покупать только если rsi<какой-то цифры
+                if self.RSI()<=Buy_sell_notification.RSI_threshold:#можно добавить условие, что покупать только если rsi<какой-то цифры
                     self.make_buy_order()
                 sleep(300)
 
@@ -118,7 +122,7 @@ class Buy_sell_notification:
 
 
     def get_historical_data(self):
-        return self.client.get_historical_klines(symbol=self.coin,interval='1d',start_str="30 day ago UTC",limit=1000)
+        return self.client.get_historical_klines(symbol=self.coin,interval='1d',start_str="15 day ago UTC",limit=1000)
 
     def dataframe_create(self):
         try:
@@ -139,17 +143,23 @@ class Buy_sell_notification:
 #add buy coefficient using buy_flag
 #if flag=buy then add coefficient for instance buy amount 300$ for first buy, for second amount=300$*1.1 for third amount*1.1
 #grid_price take not from current_price,but the last purchase price(from binance)
-# if __name__ ==  '__main__':
-#     Buy_sell_notification('BNBUSDT')
+if __name__ ==  '__main__':
+    Buy_sell_notification('NEARUSDT')
+    # pprint(res.make_buy_order())
+
+    # {'filterType': 'LOT_SIZE',
+    #           'maxQty': '900000.00000000',
+    #           'minQty': '0.10000000',
+    #           'stepSize': '0.10000000'},
 
 #pprint(avax.get_last_order())
 #
-if __name__ == '__main__':
-    coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT']
-    for c in coins:
-        processes=[]
-        p=Process(target=Buy_sell_notification,args=(c,))
-        p.start()
+# if __name__ == '__main__':
+#     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT']
+#     for c in coins:
+#         processes=[]
+#         p=Process(target=Buy_sell_notification,args=(c,))
+#         p.start()
 
 
 
