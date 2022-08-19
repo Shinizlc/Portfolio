@@ -4,52 +4,25 @@ from art import tprint
 ganache_url='http://127.0.0.1:7545'
 w3 = Web3(Web3.HTTPProvider(ganache_url))
 abi=json.loads('''[
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "_firstNo",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "_secondNo",
-          "type": "uint256"
-        }
-      ],
-      "name": "add",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "_val",
-          "type": "uint256"
-        }
-      ],
-      "name": "multiply",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "pure",
-      "type": "function"
-    }
-  ]''')
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "test",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]''')
 tprint('First Contract')
-contract_address = '0x4633348C73f70FbCf721773B9cDe886cdDDB759c'
+contract_address = '0x6610Eb7cC750733b3d3b260E867F1604b6c3d70b'
 contract = w3.eth.contract(address=contract_address,abi = abi)
-#print(contract.functions.add(1,2).call())
-print(contract.caller.add(1,2))
+print(contract.functions.test().call())
+#print(contract.caller.add(1,2))
+
+

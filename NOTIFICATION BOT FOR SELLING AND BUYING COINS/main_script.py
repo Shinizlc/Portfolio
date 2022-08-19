@@ -3,6 +3,7 @@ from binance import Client
 import requests
 import re
 from pprint import pprint
+import binance
 from multiprocessing import Process
 from LOGGER import exc_logger
 from binance.enums import *
@@ -87,17 +88,28 @@ class Buy_sell_notification:
                 buy_status, grid_price, _ = self.get_last_order()
                 current_price=self.get_current_price()
                 #продали и цена пошла на percent вниз => докупаем
-                if current_price<=grid_price-grid_price*Buy_sell_notification.percent and buy_status==False and self.get_balance('USDT')>=Buy_sell_notification.ammount_usdt:
-                    self.make_buy_order()
-                    self.send_notification('BUY')
+                if current_price<=grid_price-grid_price*Buy_sell_notification.percent and buy_status==False: #and self.get_balance('USDT')>=Buy_sell_notification.ammount_usdt:
+                    try:
+                        self.make_buy_order()
+                        self.send_notification('BUY')
+                    #except binance.BinanceAPIException:
+                    except binance.exceptions.BinanceAPIException:
+                        send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin}The price goes down after we sell.')
+
                   #купили и цена пошла еще ниже на percent => еще докупаем
-                elif current_price<=grid_price-grid_price*Buy_sell_notification.percent and buy_status==True and self.get_balance('USDT')>=Buy_sell_notification.ammount_usdt:
-                    self.make_buy_order()
-                    self.send_notification('BUY')
+                elif current_price<=grid_price-grid_price*Buy_sell_notification.percent and buy_status==True: #and self.get_balance('USDT')>=Buy_sell_notification.ammount_usdt:
+                   try:
+                        self.make_buy_order()
+                        self.send_notification('BUY')
+                   except binance.exceptions.BinanceAPIException:
+                       send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin} The price go even deeper')
                     #продали, но актив еще не перекуплен(RSI<40) тогда покупаем еще
-                elif buy_status==False and self.RSI()<=Buy_sell_notification.RSI_threshold:
-                    self.make_buy_order()
-                    self.send_notification('BUY')
+                elif buy_status==False and self.RSI()<=Buy_sell_notification.RSI_threshold: #and self.get_balance('USDT')>=Buy_sell_notification.ammount_usdt:
+                    try:
+                        self.make_buy_order()
+                        self.send_notification('BUY')
+                    except binance.exceptions.BinanceAPIException:
+                        send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin} ')
                 #купили и цена пошла вверх => Продаем
                 elif current_price>=grid_price+grid_price*Buy_sell_notification.percent and buy_status==True and self.get_balance(str(self.coin))>=self.get_last_order()[-1]:
                     self.make_sell_order()
@@ -105,9 +117,12 @@ class Buy_sell_notification:
                 else:
                     print(f'pending, current_price of {self.coin} is {current_price},grid_price {grid_price}, diff is {((current_price-grid_price)/grid_price)*100}')
                 sleep(300)
-            else:
+            else:#актив не покупался еще
                 if self.RSI()<=Buy_sell_notification.RSI_threshold:#можно добавить условие, что покупать только если rsi<какой-то цифры
-                    self.make_buy_order()
+                    try:
+                        self.make_buy_order()
+                    except binance.exceptions.BinanceAPIException:
+                        send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin} First purchase')
                 sleep(300)
 
 
@@ -144,16 +159,9 @@ class Buy_sell_notification:
 #if flag=buy then add coefficient for instance buy amount 300$ for first buy, for second amount=300$*1.1 for third amount*1.1
 #grid_price take not from current_price,but the last purchase price(from binance)
 if __name__ ==  '__main__':
-    Buy_sell_notification('NEARUSDT')
+    Buy_sell_notification('DOTUSDT')
     # pprint(res.make_buy_order())
 
-    # {'filterType': 'LOT_SIZE',
-    #           'maxQty': '900000.00000000',
-    #           'minQty': '0.10000000',
-    #           'stepSize': '0.10000000'},
-
-#pprint(avax.get_last_order())
-#
 # if __name__ == '__main__':
 #     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT']
 #     for c in coins:
