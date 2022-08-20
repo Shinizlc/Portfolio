@@ -119,7 +119,7 @@ class Buy_sell_notification:
             except binance.exceptions.BinanceAPIException as err_2010:
                 if err_2010.code == -2010:
                     send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin}')
-                    sleep(300)
+                    sleep(3600)
             except binance.exceptions.BinanceAPIException as err_1020:
                 if err_1020.code == -1020:
                     send_telegram_message(f'Could not get response in recvWindow {self.coin}')
