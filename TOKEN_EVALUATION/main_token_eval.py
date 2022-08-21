@@ -9,17 +9,17 @@ class Metrics_evaluation:
         list_agg=[]
         with requests.get(Metrics_evaluation.base+field,headers=Metrics_evaluation.headers,params={'limit':500}) as data:
             #pprint(data.json()['data'][0]['profile']['economics']['launch']['fundraising']['sales_rounds'])
-            for raw_data in data.json()['data']:
-                dict_agg = {}
-                dict_agg['Symbol']=raw_data['symbol']
-                dict_agg['MarketCap']=raw_data['metrics']['marketcap']['current_marketcap_usd']
-                dict_agg['TokenSales']=raw_data['profile']['economics']['launch']['fundraising']['sales_rounds']
-                dict_agg['EmittedTokens']=raw_data['metrics']['supply']['circulating']
-                dict_agg['MaxSupply']=raw_data['profile']['economics']['consensus_and_emission']['supply']['max_supply']
-                dict_agg['FROM_ATH']=raw_data['metrics']['all_time_high']['percent_down']
-                dict_agg['ATH'] = raw_data['metrics']['all_time_high']['price']
-                list_agg.append(dict_agg)
-            return list_agg
+            # for raw_data in data.json()['data']:
+            #     dict_agg = {}
+            #     dict_agg['Symbol']=raw_data['symbol']
+            #     dict_agg['MarketCap']=raw_data['metrics']['marketcap']['current_marketcap_usd']
+            #     dict_agg['TokenSales']=raw_data['profile']['economics']['launch']['fundraising']['sales_rounds']
+            #     dict_agg['EmittedTokens']=raw_data['metrics']['supply']['circulating']
+            #     dict_agg['MaxSupply']=raw_data['profile']['economics']['consensus_and_emission']['supply']['max_supply']
+            #     dict_agg['FROM_ATH']=raw_data['metrics']['all_time_high']['percent_down']
+            #     dict_agg['ATH'] = raw_data['metrics']['all_time_high']['price']
+            #     list_agg.append(dict_agg)
+            return data.json()#list_agg
 
 
     # def iterator_through_metrics(self):
@@ -74,4 +74,4 @@ class Metrics_evaluation:
 
 if __name__ == '__main__':
     metics = Metrics_evaluation()
-    pprint(metics.get_emitted_percentage())
+    pprint(metics.get_data('assets/BNB/profile'))

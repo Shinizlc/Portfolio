@@ -150,23 +150,30 @@ class Buy_sell_notification:
             return None
 
     def RSI(self):
-        if self.dataframe_create() is not None:
+        try:
             df =self.dataframe_create()
-            #sma = btalib.sma(df,period=9)
-            rsi=talib.RSI(df['Close']).iloc[-1:,]
-            return float(rsi.values[0])
-#add buy coefficient using buy_flag
+        except:
+            send_telegram_message(f'Could not get df for RSI for some of the reason {self.coin}')
+            return 100# we don't buy/or get erro if we cannot get RSI
+        else:
+            if df is not None:
+                rsi=talib.RSI(df['Close']).iloc[-1:,]
+                return float(rsi.values[0])
+            else:
+                return 100# we don't buy/or get erro if we cannot get RSI
+    #add buy coefficient using buy_flag
 #if flag=buy then add coefficient for instance buy amount 300$ for first buy, for second amount=300$*1.1 for third amount*1.1
 #grid_price take not from current_price,but the last purchase price(from binance)
 # if __name__ ==  '__main__':
 #     Buy_sell_notification('DOTUSDT')
-    # pprint(res.make_buy_order())
+   # res.send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin}')
+#     pprint(res.RSI())
 
 if __name__ == '__main__':
     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT']
     for c in coins:
         processes=[]
-        p=Process(target=Buy_sell_notification,args=(c,))
+        p=Thread(target=Buy_sell_notification,args=(c,))
         p.start()
 
 
