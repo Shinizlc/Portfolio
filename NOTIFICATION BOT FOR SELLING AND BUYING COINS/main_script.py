@@ -15,7 +15,11 @@ def send_telegram_message(msg):
     TOKEN = "5466685853:AAFGq0oCH2aezZq5BtWROa13AlKpbkXKstk"
     chat_id = "-753462367"
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={msg}"
-    r = requests.get(url)
+    try:
+        r = requests.get(url)
+    except:
+        print(f"Could't send a message via telegram")
+
 
 
 
@@ -127,6 +131,11 @@ class Buy_sell_notification:
             except binance.exceptions.BinanceAPIException as err_1003:
                 if err_1003.code == -1003:
                     sleep(300)
+            except requests.exceptions.ConnectionError as con_error:##were added but haven't tested yet
+                print(f'connection error to binance')
+                sleep(300)
+
+
 
 
     def send_notification(self,action):
