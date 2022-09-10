@@ -1,0 +1,1187 @@
+
+
+
+###################################
+DATA From database PRO-ADB011:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:58:25 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:05 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1421004 -535687926	    8080	  0 SJC01-P01-AWU01	     0	       48	   1 01-SEP-22 02.05.27 PM							 02-SEP-22 11.57.49.822662 AM								1 -535687926 SJC01-P01-AWU01												   1					    11		0	   2			    02-SEP-22 11.57.49.822753 AM							 1
+   1422004 -451801846	    8080	  0 SJC01-P01-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.57.33.762758 AM								1 -451801846 SJC01-P01-AWU02												   1					    11		0	   2			    02-SEP-22 11.57.33.762851 AM							 1
+   1423004 -552465142	    8080	  0 SJC01-P01-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.57.34.143356 AM								1 -552465142 SJC01-P01-AWU03												   1					    11		0	   2			    02-SEP-22 11.57.34.143461 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB012:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:58:30 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:10 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1421004 -535687926	    8080	  0 SJC01-P01-AWU01	     0	       48	   1 01-SEP-22 02.05.27 PM							 02-SEP-22 11.57.49.822662 AM								1 -535687926 SJC01-P01-AWU01												   1					    11		0	   2			    02-SEP-22 11.57.49.822753 AM							 1
+   1422004 -451801846	    8080	  0 SJC01-P01-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.57.33.762758 AM								1 -451801846 SJC01-P01-AWU02												   1					    11		0	   2			    02-SEP-22 11.57.33.762851 AM							 1
+   1423004 -552465142	    8080	  0 SJC01-P01-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.57.34.143356 AM								1 -552465142 SJC01-P01-AWU03												   1					    11		0	   2			    02-SEP-22 11.57.34.143461 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB021:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:58:38 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:15 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1176006 -468579062	    8080	  0 SJC01-P02-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.58.07.709654 AM								1 -468579062 SJC01-P02-AWU01												   1					    11		0	   2			    02-SEP-22 11.58.07.709832 AM							 1
+   1891007 1846677002	    8080	  0 IAD01-P02-AWU01	     0	       48	   1 01-SEP-22 02.05.30 PM							 02-SEP-22 11.57.59.424424 AM								1 1846677002 IAD01-P02-AWU01												   1					    12		0	   2			    02-SEP-22 11.57.59.424605 AM							 2
+   1177006 -1.089E+09	    8080	  0 SJC01-P02-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.58.16.503153 AM								1 -1.089E+09 SJC01-P02-AWU02												   1					    11		0	   2			    02-SEP-22 11.58.16.503306 AM							 1
+   1892007 1997671946	    8080	  0 IAD01-P02-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.57.48.766867 AM								1 1997671946 IAD01-P02-AWU02												   1					    12		0	   2			    02-SEP-22 11.57.48.767026 AM							 2
+   1178006 -518910710	    8080	  0 SJC01-P02-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.58.16.717502 AM								1 -518910710 SJC01-P02-AWU03												   1					    11		0	   2			    02-SEP-22 11.58.16.717685 AM							 1
+   1893007 1376783882	    8080	  0 IAD01-P02-AWU03	     0	       48	   1 01-SEP-22 02.05.58 PM							 02-SEP-22 11.57.48.957325 AM								1 1376783882 IAD01-P02-AWU03												   1					    12		0	   2			    02-SEP-22 11.57.48.957486 AM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB022:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:58:43 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:20 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1891007 1846677002	    8080	  0 IAD01-P02-AWU01	     0	       48	   1 01-SEP-22 02.05.30 PM							 02-SEP-22 11.57.59.424424 AM								1 1846677002 IAD01-P02-AWU01												   1					    12		0	   2			    02-SEP-22 11.57.59.424605 AM							 2
+   1176006 -468579062	    8080	  0 SJC01-P02-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.58.07.709654 AM								1 -468579062 SJC01-P02-AWU01												   1					    11		0	   2			    02-SEP-22 11.58.07.709832 AM							 1
+   1892007 1997671946	    8080	  0 IAD01-P02-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.57.48.766867 AM								1 1997671946 IAD01-P02-AWU02												   1					    12		0	   2			    02-SEP-22 11.57.48.767026 AM							 2
+   1177006 -1.089E+09	    8080	  0 SJC01-P02-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.58.16.503153 AM								1 -1.089E+09 SJC01-P02-AWU02												   1					    11		0	   2			    02-SEP-22 11.58.16.503306 AM							 1
+   1178006 -518910710	    8080	  0 SJC01-P02-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.58.16.717502 AM								1 -518910710 SJC01-P02-AWU03												   1					    11		0	   2			    02-SEP-22 11.58.16.717685 AM							 1
+   1893007 1376783882	    8080	  0 IAD01-P02-AWU03	     0	       48	   1 01-SEP-22 02.05.58 PM							 02-SEP-22 11.57.48.957325 AM								1 1376783882 IAD01-P02-AWU03												   1					    12		0	   2			    02-SEP-22 11.57.48.957486 AM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB031:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:58:48 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:25 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1786008 -837677814	    8080	  0 SJC01-P03-AWU01	     0	       48	   1 01-SEP-22 02.05.27 PM							 02-SEP-22 11.58.43.958338 AM								1 -837677814 SJC01-P03-AWU01												   1					    11		0	   2			    02-SEP-22 11.58.43.958484 AM							 1
+   1787008 1024593162	    8080	  0 SJC01-P03-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.57.58.581583 AM								1 1024593162 SJC01-P03-AWU02												   1					    11		0	   2			    02-SEP-22 11.57.58.581657 AM							 1
+   1788008 -888009462	    8080	  0 SJC01-P03-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.57.57.572722 AM								1 -888009462 SJC01-P03-AWU03												   1					    11		0	   2			    02-SEP-22 11.57.57.572869 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB032:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:58:54 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:30 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1786008 -837677814	    8080	  0 SJC01-P03-AWU01	     0	       48	   1 01-SEP-22 02.05.27 PM							 02-SEP-22 11.58.43.958338 AM								1 -837677814 SJC01-P03-AWU01												   1					    11		0	   2			    02-SEP-22 11.58.43.958484 AM							 1
+   1787008 1024593162	    8080	  0 SJC01-P03-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.57.58.581583 AM								1 1024593162 SJC01-P03-AWU02												   1					    11		0	   2			    02-SEP-22 11.57.58.581657 AM							 1
+   1788008 -888009462	    8080	  0 SJC01-P03-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.57.57.572722 AM								1 -888009462 SJC01-P03-AWU03												   1					    11		0	   2			    02-SEP-22 11.57.57.572869 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB041:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:58:59 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:34 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1474011 -1.962E+09	    8080	  0 IAD01-P04-AWU01	     0	       48	   1 01-SEP-22 02.05.31 PM							 02-SEP-22 11.58.36.940641 AM								1 -1.962E+09 IAD01-P04-AWU01												   1					    12		0	   2			    02-SEP-22 11.58.36.940814 AM							 2
+   1475011 -1.995E+09	    8080	  0 IAD01-P04-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.58.32.023635 AM								1 -1.995E+09 IAD01-P04-AWU02												   1					    12		0	   2			    02-SEP-22 11.58.32.023800 AM							 2
+   1476011 -2.046E+09	    8080	  0 IAD01-P04-AWU03	     0	       48	   1 01-SEP-22 02.05.56 PM							 02-SEP-22 11.58.31.834132 AM								1 -2.046E+09 IAD01-P04-AWU03												   1					    12		0	   2			    02-SEP-22 11.58.31.834290 AM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB042:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:04 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:39 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1474011 -1.962E+09	    8080	  0 IAD01-P04-AWU01	     0	       48	   1 01-SEP-22 02.05.31 PM							 02-SEP-22 11.58.36.940641 AM								1 -1.962E+09 IAD01-P04-AWU01												   1					    12		0	   2			    02-SEP-22 11.58.36.940814 AM							 2
+   1475011 -1.995E+09	    8080	  0 IAD01-P04-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.58.32.023635 AM								1 -1.995E+09 IAD01-P04-AWU02												   1					    12		0	   2			    02-SEP-22 11.58.32.023800 AM							 2
+   1476011 -2.046E+09	    8080	  0 IAD01-P04-AWU03	     0	       48	   1 01-SEP-22 02.05.56 PM							 02-SEP-22 11.58.31.834132 AM								1 -2.046E+09 IAD01-P04-AWU03												   1					    12		0	   2			    02-SEP-22 11.58.31.834290 AM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB051:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:09 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:44 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1927012 -502133494	    8080	  0 SJC01-P05-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.58.40.831298 AM								1 -502133494 SJC01-P05-AWU02												   1					    11		0	   2			    02-SEP-22 11.58.40.831467 AM							 1
+   1926012 -971895542	    8080	  0 SJC01-P05-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.58.56.090047 AM								1 -971895542 SJC01-P05-AWU01												   1					    11		0	   2			    02-SEP-22 11.58.56.090226 AM							 1
+   1928012 -938472182	    8080	  0 SJC01-P05-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.58.41.776787 AM								1 -938472182 SJC01-P05-AWU03												   1					    11		0	   2			    02-SEP-22 11.58.41.776972 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB052:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:15 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:49 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1926012 -971895542	    8080	  0 SJC01-P05-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.58.56.090047 AM								1 -971895542 SJC01-P05-AWU01												   1					    11		0	   2			    02-SEP-22 11.58.56.090226 AM							 1
+   1927012 -502133494	    8080	  0 SJC01-P05-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.58.40.831298 AM								1 -502133494 SJC01-P05-AWU02												   1					    11		0	   2			    02-SEP-22 11.58.40.831467 AM							 1
+   1928012 -938472182	    8080	  0 SJC01-P05-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.58.41.776787 AM								1 -938472182 SJC01-P05-AWU03												   1					    11		0	   2			    02-SEP-22 11.58.41.776972 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB061:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:19 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:54 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1422015 1309740554	    8080	  0 IAD01-P06-AWU01	     0	       48	   1 01-SEP-22 02.05.33 PM							 02-SEP-22 11.58.54.747947 AM								1 1309740554 IAD01-P06-AWU01												   1					    12		0	   2			    02-SEP-22 11.58.54.748113 AM							 2
+   1423015 -2.096E+09	    8080	  0 IAD01-P06-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.58.58.740160 AM								1 -2.096E+09 IAD01-P06-AWU02												   1					    12		0	   2			    02-SEP-22 11.58.58.740345 AM							 2
+   1424015 1762790922	    8080	  0 IAD01-P06-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.58.58.555074 AM								1 1762790922 IAD01-P06-AWU03												   1					    12		0	   2			    02-SEP-22 11.58.58.555248 AM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB062:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:25 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:31:59 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1424015 1762790922	    8080	  0 IAD01-P06-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.58.58.555074 AM								1 1762790922 IAD01-P06-AWU03												   1					    12		0	   2			    02-SEP-22 11.58.58.555248 AM							 2
+   1423015 -2.096E+09	    8080	  0 IAD01-P06-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.58.58.740160 AM								1 -2.096E+09 IAD01-P06-AWU02												   1					    12		0	   2			    02-SEP-22 11.58.58.740345 AM							 2
+   1422015 1309740554	    8080	  0 IAD01-P06-AWU01	     0	       48	   1 01-SEP-22 02.05.33 PM							 02-SEP-22 11.58.54.747947 AM								1 1309740554 IAD01-P06-AWU01												   1					    12		0	   2			    02-SEP-22 11.58.54.748113 AM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB071:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:30 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:03 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1605016 -854455030	    8080	  0 SJC01-P07-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.20.036008 AM								1 -854455030 SJC01-P07-AWU03												   1					    11		0	   2			    02-SEP-22 11.59.20.036176 AM							 1
+   1603016 -1.039E+09	    8080	  0 SJC01-P07-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 11.59.01.602645 AM								1 -1.039E+09 SJC01-P07-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.01.602814 AM							 1
+   1604016 -586019574	    8080	  0 SJC01-P07-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.59.19.807365 AM								1 -586019574 SJC01-P07-AWU02												   1					    11		0	   2			    02-SEP-22 11.59.19.807516 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB072:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:34 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:07 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1603016 -1.039E+09	    8080	  0 SJC01-P07-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 11.59.01.602645 AM								1 -1.039E+09 SJC01-P07-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.01.602814 AM							 1
+   1604016 -586019574	    8080	  0 SJC01-P07-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.59.19.807365 AM								1 -586019574 SJC01-P07-AWU02												   1					    11		0	   2			    02-SEP-22 11.59.19.807516 AM							 1
+   1605016 -854455030	    8080	  0 SJC01-P07-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.20.036008 AM								1 -854455030 SJC01-P07-AWU03												   1					    11		0	   2			    02-SEP-22 11.59.20.036176 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB081:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:38 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:11 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1013019 -1.979E+09	    8080	  0 IAD01-P08-AWU01	     0	       48	   1 01-SEP-22 02.05.31 PM							 02-SEP-22 11.59.34.458882 AM								1 -1.979E+09 IAD01-P08-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.34.459065 AM							 2
+   1014019 -2.029E+09	    8080	  0 IAD01-P08-AWU02	     0	       48	   1 01-SEP-22 02.05.45 PM							 02-SEP-22 11.59.02.808616 AM								1 -2.029E+09 IAD01-P08-AWU02												   1					    12		0	   2			    02-SEP-22 11.59.02.808744 AM							 2
+   1015019 -2.012E+09	    8080	  0 IAD01-P08-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.02.658209 AM								1 -2.012E+09 IAD01-P08-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.02.658383 AM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB082:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:43 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:15 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1013019 -1.979E+09	    8080	  0 IAD01-P08-AWU01	     0	       48	   1 01-SEP-22 02.05.31 PM							 02-SEP-22 11.59.34.458882 AM								1 -1.979E+09 IAD01-P08-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.34.459065 AM							 2
+   1015019 -2.012E+09	    8080	  0 IAD01-P08-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.02.658209 AM								1 -2.012E+09 IAD01-P08-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.02.658383 AM							 2
+   1014019 -2.029E+09	    8080	  0 IAD01-P08-AWU02	     0	       48	   1 01-SEP-22 02.05.45 PM							 02-SEP-22 11.59.02.808616 AM								1 -2.029E+09 IAD01-P08-AWU02												   1					    12		0	   2			    02-SEP-22 11.59.02.808744 AM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB101:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:47 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:20 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1839023 -2.130E+09	    8080	  0 IAD01-P10-AWU01	     0	       48	   1 01-SEP-22 02.05.31 PM							 02-SEP-22 11.58.49.035860 AM								1 -2.130E+09 IAD01-P10-AWU01												   1					    12		0	   2			    02-SEP-22 11.58.49.036038 AM							 2
+   1840023 1729236490	    8080	  0 IAD01-P10-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 11.59.19.947576 AM								1 1729236490 IAD01-P10-AWU02												   1					    12		0	   2			    02-SEP-22 11.59.19.947738 AM							 2
+   1841023 1947340298	    8080	  0 IAD01-P10-AWU03	     0	       48	   1 01-SEP-22 02.05.56 PM							 02-SEP-22 11.59.19.608663 AM								1 1947340298 IAD01-P10-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.19.608838 AM							 2
+    714022 -720237302	    8080	  0 SJC01-P10-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 11.59.47.830273 AM								1 -720237302 SJC01-P10-AWU02												   1					    11		0	   2			    02-SEP-22 11.59.47.830468 AM							 1
+    715022 -871232246	    8080	  0 SJC01-P10-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.47.747147 AM								1 -871232246 SJC01-P10-AWU03												   1					    11		0	   2			    02-SEP-22 11.59.47.747289 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB102:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:52 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:24 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1841023 1947340298	    8080	  0 IAD01-P10-AWU03	     0	       48	   1 01-SEP-22 02.05.56 PM							 02-SEP-22 11.59.19.608663 AM								1 1947340298 IAD01-P10-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.19.608838 AM							 2
+   1839023 -2.130E+09	    8080	  0 IAD01-P10-AWU01	     0	       48	   1 01-SEP-22 02.05.31 PM							 02-SEP-22 11.59.49.036648 AM								1 -2.130E+09 IAD01-P10-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.49.036826 AM							 2
+    714022 -720237302	    8080	  0 SJC01-P10-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 11.59.47.830273 AM								1 -720237302 SJC01-P10-AWU02												   1					    11		0	   2			    02-SEP-22 11.59.47.830468 AM							 1
+    715022 -871232246	    8080	  0 SJC01-P10-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.47.747147 AM								1 -871232246 SJC01-P10-AWU03												   1					    11		0	   2			    02-SEP-22 11.59.47.747289 AM							 1
+   1840023 1729236490	    8080	  0 IAD01-P10-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 11.59.19.947576 AM								1 1729236490 IAD01-P10-AWU02												   1					    12		0	   2			    02-SEP-22 11.59.19.947738 AM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB111:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 11:59:56 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:28 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    555024 -820900598	    8080	  0 SJC01-P11-AWU03	     0	       48	   1 01-SEP-22 11.56.10 AM							 02-SEP-22 11.59.49.300519 AM								1 -820900598 SJC01-P11-AWU03												   1 1.0				    11		0	   2			    02-SEP-22 11.59.49.300650 AM							 1
+    533025 1746013706	    8080	  0 IAD01-P11-AWU01	     0	       48	   1 01-SEP-22 02.05.31 PM							 02-SEP-22 11.59.40.452383 AM								1 1746013706 IAD01-P11-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.40.452534 AM							 2
+    534025 2098335242	    8080	  0 IAD01-P11-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 11.59.04.296000 AM								1 2098335242 IAD01-P11-AWU02												   1					    12		0	   2			    02-SEP-22 11.59.04.296172 AM							 2
+    535025 1913785866	    8080	  0 IAD01-P11-AWU03	     0	       48	   1 01-SEP-22 02.05.55 PM							 02-SEP-22 11.59.05.158434 AM								1 1913785866 IAD01-P11-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.05.158581 AM							 2
+    553024 -703460086	    8080	  0 SJC01-P11-AWU01	     0	       48	   1 01-SEP-22 11.55.58 AM							 02-SEP-22 11.59.45.917153 AM								1 -703460086 SJC01-P11-AWU01												   1 1.0				    11		0	   2			    02-SEP-22 11.59.45.917310 AM							 1
+    554024 -955118326	    8080	  0 SJC01-P11-AWU02	     0	       48	   1 01-SEP-22 11.56.04 AM							 02-SEP-22 11.59.49.512580 AM								1 -955118326 SJC01-P11-AWU02												   1 1.0				    11		0	   2			    02-SEP-22 11.59.49.512707 AM							 1
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB112:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:01 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:32 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    533025 1746013706	    8080	  0 IAD01-P11-AWU01	     0	       48	   1 01-SEP-22 02.05.31 PM							 02-SEP-22 11.59.40.452383 AM								1 1746013706 IAD01-P11-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.40.452534 AM							 2
+    534025 2098335242	    8080	  0 IAD01-P11-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 12.00.04.296071 PM								1 2098335242 IAD01-P11-AWU02												   1					    12		0	   2			    02-SEP-22 12.00.04.296195 PM							 2
+    553024 -703460086	    8080	  0 SJC01-P11-AWU01	     0	       48	   1 01-SEP-22 11.55.58 AM							 02-SEP-22 11.59.45.917153 AM								1 -703460086 SJC01-P11-AWU01												   1 1.0				    11		0	   2			    02-SEP-22 11.59.45.917310 AM							 1
+    554024 -955118326	    8080	  0 SJC01-P11-AWU02	     0	       48	   1 01-SEP-22 11.56.04 AM							 02-SEP-22 11.59.49.512580 AM								1 -955118326 SJC01-P11-AWU02												   1 1.0				    11		0	   2			    02-SEP-22 11.59.49.512707 AM							 1
+    555024 -820900598	    8080	  0 SJC01-P11-AWU03	     0	       48	   1 01-SEP-22 11.56.10 AM							 02-SEP-22 11.59.49.300519 AM								1 -820900598 SJC01-P11-AWU03												   1 1.0				    11		0	   2			    02-SEP-22 11.59.49.300650 AM							 1
+    535025 1913785866	    8080	  0 IAD01-P11-AWU03	     0	       48	   1 01-SEP-22 02.05.55 PM							 02-SEP-22 11.59.05.158434 AM								1 1913785866 IAD01-P11-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.05.158581 AM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB121:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:05 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:37 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1839027 1048317450	    8080	  0 IAD01-P12-AWU01	     0	       48	   1 01-SEP-22 02.05.32 PM							 02-SEP-22 11.59.12.378740 AM								1 1048317450 IAD01-P12-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.12.378880 AM							 2
+   1840027 1014763018	    8080	  0 IAD01-P12-AWU02	     0	       48	   1 01-SEP-22 02.05.45 PM							 02-SEP-22 11.59.22.336489 AM								1 1014763018 IAD01-P12-AWU02												   1					    12		0	   2			    02-SEP-22 11.59.22.336638 AM							 2
+   1841027 1031540234	    8080	  0 IAD01-P12-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.59.21.700098 AM								1 1031540234 IAD01-P12-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.21.700266 AM							 2
+    475026  981208330	    8080	  0 SJC01-P12-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.02.529714 PM								1  981208330 SJC01-P12-AWU03												   1					    11		0	   2			    02-SEP-22 12.00.02.529902 PM							 1
+    473026  947653898	    8080	  0 SJC01-P12-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.59.33.745630 AM								1  947653898 SJC01-P12-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.33.745802 AM							 1
+    474026  964431114	    8080	  0 SJC01-P12-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 12.00.02.791707 PM								1  964431114 SJC01-P12-AWU02												   1					    11		0	   2			    02-SEP-22 12.00.02.791802 PM							 1
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB122:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:09 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:41 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1841027 1031540234	    8080	  0 IAD01-P12-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 11.59.21.700098 AM								1 1031540234 IAD01-P12-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.21.700266 AM							 2
+    473026  947653898	    8080	  0 SJC01-P12-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.59.33.745630 AM								1  947653898 SJC01-P12-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.33.745802 AM							 1
+    474026  964431114	    8080	  0 SJC01-P12-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 12.00.02.791707 PM								1  964431114 SJC01-P12-AWU02												   1					    11		0	   2			    02-SEP-22 12.00.02.791802 PM							 1
+    475026  981208330	    8080	  0 SJC01-P12-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.02.529714 PM								1  981208330 SJC01-P12-AWU03												   1					    11		0	   2			    02-SEP-22 12.00.02.529902 PM							 1
+   1840027 1014763018	    8080	  0 IAD01-P12-AWU02	     0	       48	   1 01-SEP-22 02.05.45 PM							 02-SEP-22 11.59.22.336489 AM								1 1014763018 IAD01-P12-AWU02												   1					    12		0	   2			    02-SEP-22 11.59.22.336638 AM							 2
+   1839027 1048317450	    8080	  0 IAD01-P12-AWU01	     0	       48	   1 01-SEP-22 02.05.32 PM							 02-SEP-22 12.00.12.379683 PM								1 1048317450 IAD01-P12-AWU01												   1					    12		0	   2			    02-SEP-22 12.00.12.379835 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB131:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:13 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:45 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1928028 1594887434	    8080	  0 SJC01-P13-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.59.44.459260 AM								1 1594887434 SJC01-P13-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.44.459421 AM							 1
+    653029 1897008650	    8080	  0 IAD01-P13-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.59.48.897750 AM								1 1897008650 IAD01-P13-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.48.897915 AM							 2
+   1929028 -602796790	    8080	  0 SJC01-P13-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 11.59.39.081793 AM								1 -602796790 SJC01-P13-AWU02												   1					    11		0	   2			    02-SEP-22 11.59.39.081987 AM							 1
+    654029 1829899786	    8080	  0 IAD01-P13-AWU02	     0	       48	   1 01-SEP-22 02.05.45 PM							 02-SEP-22 11.59.17.725328 AM								1 1829899786 IAD01-P13-AWU02												   1					    12		0	   2			    02-SEP-22 11.59.17.725447 AM							 2
+   1930028 -1.056E+09	    8080	  0 SJC01-P13-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.36.797862 AM								1 -1.056E+09 SJC01-P13-AWU03												   1					    11		0	   2			    02-SEP-22 11.59.36.798051 AM							 1
+    655029 1813122570	    8080	  0 IAD01-P13-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.17.871853 AM								1 1813122570 IAD01-P13-AWU03												   1					    12		0	   2			    02-SEP-22 11.59.17.871951 AM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB132:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:17 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:49 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1928028 1594887434	    8080	  0 SJC01-P13-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.59.44.459260 AM								1 1594887434 SJC01-P13-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.44.459421 AM							 1
+   1929028 -602796790	    8080	  0 SJC01-P13-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 11.59.39.081793 AM								1 -602796790 SJC01-P13-AWU02												   1					    11		0	   2			    02-SEP-22 11.59.39.081987 AM							 1
+   1930028 -1.056E+09	    8080	  0 SJC01-P13-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 11.59.36.797862 AM								1 -1.056E+09 SJC01-P13-AWU03												   1					    11		0	   2			    02-SEP-22 11.59.36.798051 AM							 1
+    653029 1897008650	    8080	  0 IAD01-P13-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.59.48.897750 AM								1 1897008650 IAD01-P13-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.48.897915 AM							 2
+    654029 1829899786	    8080	  0 IAD01-P13-AWU02	     0	       48	   1 01-SEP-22 02.05.45 PM							 02-SEP-22 12.00.17.725327 PM								1 1829899786 IAD01-P13-AWU02												   1					    12		0	   2			    02-SEP-22 12.00.17.725421 PM							 2
+    655029 1813122570	    8080	  0 IAD01-P13-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.17.871587 PM								1 1813122570 IAD01-P13-AWU03												   1					    12		0	   2			    02-SEP-22 12.00.17.871697 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB141:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:22 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:53 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    314030 1636069642	    8080	  0 SJC01-P14-AWU02	     0	       48	   1 01-SEP-22 02.05.40 PM							 02-SEP-22 12.00.16.050626 PM								1 1636069642 SJC01-P14-AWU02												   1					    11		0	   2			    02-SEP-22 12.00.16.050747 PM							 1
+    315030  763654410	    8080	  0 SJC01-P14-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 12.00.15.795396 PM								1  763654410 SJC01-P14-AWU03												   1					    11		0	   2			    02-SEP-22 12.00.15.795509 PM							 1
+    313030 1652846858	    8080	  0 SJC01-P14-AWU01	     0	       48	   1 01-SEP-22 02.05.27 PM							 02-SEP-22 11.59.37.447117 AM								1 1652846858 SJC01-P14-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.37.447267 AM							 1
+   1819031  847540746	    8080	  0 IAD01-P14-AWU01	     0	       48	   1 01-SEP-22 11.26.07 AM							 02-SEP-22 12.00.04.499882 PM								1  847540746 IAD01-P14-AWU01												   1 1.0				    12		0	   2			    02-SEP-22 12.00.04.500070 PM							 2
+   1820031 1216639498	    8080	  0 IAD01-P14-AWU02	     0	       48	   1 01-SEP-22 11.26.13 AM							 02-SEP-22 12.00.00.146048 PM								1 1216639498 IAD01-P14-AWU02												   1 1.0				    12		0	   2			    02-SEP-22 12.00.00.146226 PM							 2
+   1821031 1367634442	    8080	  0 IAD01-P14-AWU03	     0	       48	   1 01-SEP-22 11.26.19 AM							 02-SEP-22 11.59.59.875224 AM								1 1367634442 IAD01-P14-AWU03												   1 1.0				    12		0	   2			    02-SEP-22 11.59.59.875395 AM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB142:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:26 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:32:57 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1821031 1367634442	    8080	  0 IAD01-P14-AWU03	     0	       48	   1 01-SEP-22 11.26.19 AM							 02-SEP-22 11.59.59.875224 AM								1 1367634442 IAD01-P14-AWU03												   1 1.0				    12		0	   2			    02-SEP-22 11.59.59.875395 AM							 2
+   1819031  847540746	    8080	  0 IAD01-P14-AWU01	     0	       48	   1 01-SEP-22 11.26.07 AM							 02-SEP-22 12.00.04.499882 PM								1  847540746 IAD01-P14-AWU01												   1 1.0				    12		0	   2			    02-SEP-22 12.00.04.500070 PM							 2
+   1820031 1216639498	    8080	  0 IAD01-P14-AWU02	     0	       48	   1 01-SEP-22 11.26.13 AM							 02-SEP-22 12.00.00.146048 PM								1 1216639498 IAD01-P14-AWU02												   1 1.0				    12		0	   2			    02-SEP-22 12.00.00.146226 PM							 2
+    313030 1652846858	    8080	  0 SJC01-P14-AWU01	     0	       48	   1 01-SEP-22 02.05.27 PM							 02-SEP-22 11.59.37.447117 AM								1 1652846858 SJC01-P14-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.37.447267 AM							 1
+    314030 1636069642	    8080	  0 SJC01-P14-AWU02	     0	       48	   1 01-SEP-22 02.05.40 PM							 02-SEP-22 12.00.16.050626 PM								1 1636069642 SJC01-P14-AWU02												   1					    11		0	   2			    02-SEP-22 12.00.16.050747 PM							 1
+    315030  763654410	    8080	  0 SJC01-P14-AWU03	     0	       48	   1 01-SEP-22 02.05.52 PM							 02-SEP-22 12.00.15.795396 PM								1  763654410 SJC01-P14-AWU03												   1					    11		0	   2			    02-SEP-22 12.00.15.795509 PM							 1
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB151:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:31 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:33:01 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    555032 -485356278	    8080	  0 SJC01-P15-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.59.57.583177 AM								1 -485356278 SJC01-P15-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.57.583340 AM							 1
+    557032 -569242358	    8080	  0 SJC01-P15-AWU03	     0	       48	   1 01-SEP-22 02.05.54 PM							 02-SEP-22 11.59.42.236226 AM								1 -569242358 SJC01-P15-AWU03												   1					    11		0	   2			    02-SEP-22 11.59.42.236423 AM							 1
+    556032 -686682870	    8080	  0 SJC01-P15-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.59.43.823454 AM								1 -686682870 SJC01-P15-AWU02												   1					    11		0	   2			    02-SEP-22 11.59.43.823608 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB152:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:35 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:33:06 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    555032 -485356278	    8080	  0 SJC01-P15-AWU01	     0	       48	   1 01-SEP-22 02.05.28 PM							 02-SEP-22 11.59.57.583177 AM								1 -485356278 SJC01-P15-AWU01												   1					    11		0	   2			    02-SEP-22 11.59.57.583340 AM							 1
+    556032 -686682870	    8080	  0 SJC01-P15-AWU02	     0	       48	   1 01-SEP-22 02.05.41 PM							 02-SEP-22 11.59.43.823454 AM								1 -686682870 SJC01-P15-AWU02												   1					    11		0	   2			    02-SEP-22 11.59.43.823608 AM							 1
+    557032 -569242358	    8080	  0 SJC01-P15-AWU03	     0	       48	   1 01-SEP-22 02.05.54 PM							 02-SEP-22 11.59.42.236226 AM								1 -569242358 SJC01-P15-AWU03												   1					    11		0	   2			    02-SEP-22 11.59.42.236423 AM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB161:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:39 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:33:10 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    233034 1417965834	    8080	  0 SJC01-P16-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 12.00.28.818285 PM								1 1417965834 SJC01-P16-AWU01												   1					    11		0	   2			    02-SEP-22 12.00.28.818451 PM							 1
+    293035  830763530	    8080	  0 IAD01-P16-AWU01	     0	       48	   1 01-SEP-22 02.05.33 PM							 02-SEP-22 11.59.40.917306 AM								1  830763530 IAD01-P16-AWU01												   1					    12		0	   2			    02-SEP-22 11.59.40.917465 AM							 2
+    234034  344224010	    8080	  0 SJC01-P16-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 12.00.41.141774 PM								1  344224010 SJC01-P16-AWU02												   1					    11		0	   2			    02-SEP-22 12.00.41.142257 PM							 1
+    294035 1636069898	    8080	  0 IAD01-P16-AWU02	     0	       48	   1 01-SEP-22 02.05.43 PM							 02-SEP-22 12.00.23.494969 PM								1 1636069898 IAD01-P16-AWU02												   1					    12		0	   2			    02-SEP-22 12.00.23.495114 PM							 2
+    235034  964981002	    8080	  0 SJC01-P16-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.40.751948 PM								1  964981002 SJC01-P16-AWU03												   1					    11		0	   2			    02-SEP-22 12.00.40.752510 PM							 1
+    295035 1686401546	    8080	  0 IAD01-P16-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.24.255675 PM								1 1686401546 IAD01-P16-AWU03												   1					    12		0	   2			    02-SEP-22 12.00.24.255856 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB162:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:44 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:33:14 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    293035  830763530	    8080	  0 IAD01-P16-AWU01	     0	       48	   1 01-SEP-22 02.05.33 PM							 02-SEP-22 12.00.40.916847 PM								1  830763530 IAD01-P16-AWU01												   1					    12		0	   2			    02-SEP-22 12.00.40.917007 PM							 2
+    233034 1417965834	    8080	  0 SJC01-P16-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 12.00.28.818285 PM								1 1417965834 SJC01-P16-AWU01												   1					    11		0	   2			    02-SEP-22 12.00.28.818451 PM							 1
+    294035 1636069898	    8080	  0 IAD01-P16-AWU02	     0	       48	   1 01-SEP-22 02.05.43 PM							 02-SEP-22 12.00.23.494969 PM								1 1636069898 IAD01-P16-AWU02												   1					    12		0	   2			    02-SEP-22 12.00.23.495114 PM							 2
+    234034  344224010	    8080	  0 SJC01-P16-AWU02	     0	       48	   1 01-SEP-22 02.05.42 PM							 02-SEP-22 12.00.41.141774 PM								1  344224010 SJC01-P16-AWU02												   1					    11		0	   2			    02-SEP-22 12.00.41.142257 PM							 1
+    235034  964981002	    8080	  0 SJC01-P16-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.40.751948 PM								1  964981002 SJC01-P16-AWU03												   1					    11		0	   2			    02-SEP-22 12.00.40.752510 PM							 1
+    295035 1686401546	    8080	  0 IAD01-P16-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.24.255675 PM								1 1686401546 IAD01-P16-AWU03												   1					    12		0	   2			    02-SEP-22 12.00.24.255856 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB171:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:49 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:33:18 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1812036 1669624074	    8080	  0 SJC01-P17-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 12.00.17.751086 PM								1 1669624074 SJC01-P17-AWU01												   1					    11		0	   2			    02-SEP-22 12.00.17.751253 PM							 1
+   1813036 1350856970	    8080	  0 SJC01-P17-AWU02	     0	       48	   1 01-SEP-22 02.05.43 PM							 02-SEP-22 12.00.30.927084 PM								1 1350856970 SJC01-P17-AWU02												   1					    11		0	   2			    02-SEP-22 12.00.30.927275 PM							 1
+   1814036 1686401290	    8080	  0 SJC01-P17-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.31.180210 PM								1 1686401290 SJC01-P17-AWU03												   1					    11		0	   2			    02-SEP-22 12.00.31.180349 PM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB172:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:53 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:33:23 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+   1812036 1669624074	    8080	  0 SJC01-P17-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 12.00.17.751086 PM								1 1669624074 SJC01-P17-AWU01												   1					    11		0	   2			    02-SEP-22 12.00.17.751253 PM							 1
+   1813036 1350856970	    8080	  0 SJC01-P17-AWU02	     0	       48	   1 01-SEP-22 02.05.43 PM							 02-SEP-22 12.00.30.927084 PM								1 1350856970 SJC01-P17-AWU02												   1					    11		0	   2			    02-SEP-22 12.00.30.927275 PM							 1
+   1814036 1686401290	    8080	  0 SJC01-P17-AWU03	     0	       48	   1 01-SEP-22 02.05.53 PM							 02-SEP-22 12.00.31.180210 PM								1 1686401290 SJC01-P17-AWU03												   1					    11		0	   2			    02-SEP-22 12.00.31.180349 PM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB201:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:00:57 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:58:04 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    155042 1996751626	    8080	  0 AWS70-P20-AWU03	     0	       48	   1 01-SEP-22 02.23.32 PM							 02-SEP-22 12.00.12.333480 PM								1 1996751626 AWS70-P20-AWU03												   1					    70		0	   2			    02-SEP-22 12.00.12.333563 PM							 1
+    153042 1745093386	    8080	  0 AWS70-P20-AWU01	     0	       48	   1 01-SEP-22 02.23.19 PM							 02-SEP-22 12.00.45.567640 PM								1 1745093386 AWS70-P20-AWU01												   1					    70		0	   2			    02-SEP-22 12.00.45.567737 PM							 1
+    154042 1644430090	    8080	  0 AWS70-P20-AWU02	     0	       48	   1 01-SEP-22 02.23.25 PM							 02-SEP-22 12.00.12.382128 PM								1 1644430090 AWS70-P20-AWU02												   1					    70		0	   2			    02-SEP-22 12.00.12.382278 PM							 1
+    173043 -536476918	    8080	  0 AWS71-P20-AWU01	     0	       48	   1 01-SEP-22 11.31.28 AM							 02-SEP-22 12.00.15.371447 PM								1 -536476918 AWS71-P20-AWU01												   1 1.0				    71		0	   2			    02-SEP-22 12.00.15.371561 PM							 2
+    174043 -1.577E+09	    8080	  0 AWS71-P20-AWU02	     0	       48	   1 01-SEP-22 11.31.34 AM							 02-SEP-22 11.59.59.371374 AM								1 -1.577E+09 AWS71-P20-AWU02												   1 1.0				    71		0	   2			    02-SEP-22 11.59.59.371468 AM							 2
+    175043 1074135818	    8080	  0 AWS71-P20-AWU03	     0	       48	   1 01-SEP-22 11.31.40 AM							 02-SEP-22 12.00.52.152157 PM								1 1074135818 AWS71-P20-AWU03												   1 1.0				    71		0	   2			    02-SEP-22 12.00.52.152257 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB202:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:02 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:58:08 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    174043 -1.577E+09	    8080	  0 AWS71-P20-AWU02	     0	       48	   1 01-SEP-22 11.31.34 AM							 02-SEP-22 12.00.59.371164 PM								1 -1.577E+09 AWS71-P20-AWU02												   1 1.0				    71		0	   2			    02-SEP-22 12.00.59.371261 PM							 2
+    175043 1074135818	    8080	  0 AWS71-P20-AWU03	     0	       48	   1 01-SEP-22 11.31.40 AM							 02-SEP-22 12.00.52.152157 PM								1 1074135818 AWS71-P20-AWU03												   1 1.0				    71		0	   2			    02-SEP-22 12.00.52.152257 PM							 2
+    153042 1745093386	    8080	  0 AWS70-P20-AWU01	     0	       48	   1 01-SEP-22 02.23.19 PM							 02-SEP-22 12.00.45.567640 PM								1 1745093386 AWS70-P20-AWU01												   1					    70		0	   2			    02-SEP-22 12.00.45.567737 PM							 1
+    154042 1644430090	    8080	  0 AWS70-P20-AWU02	     0	       48	   1 01-SEP-22 02.23.25 PM							 02-SEP-22 12.00.12.382128 PM								1 1644430090 AWS70-P20-AWU02												   1					    70		0	   2			    02-SEP-22 12.00.12.382278 PM							 1
+    155042 1996751626	    8080	  0 AWS70-P20-AWU03	     0	       48	   1 01-SEP-22 02.23.32 PM							 02-SEP-22 12.00.12.333480 PM								1 1996751626 AWS70-P20-AWU03												   1					    70		0	   2			    02-SEP-22 12.00.12.333563 PM							 1
+    173043 -536476918	    8080	  0 AWS71-P20-AWU01	     0	       48	   1 01-SEP-22 11.31.28 AM							 02-SEP-22 12.00.15.371447 PM								1 -536476918 AWS71-P20-AWU01												   1 1.0				    71		0	   2			    02-SEP-22 12.00.15.371561 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB211:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:06 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:28 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+     51044 1894056714	    8080	  0 PDX08-P21-AWU02	     0	       48	   1 01-DEC-20 05.17.34 PM							 02-SEP-22 12.00.30.890408 PM								1 1894056714 PDX08-P21-AWU02												   1					    37		0	   2			    02-SEP-22 12.00.30.890477 PM							 1
+     61044 1038418698	    8080	  0 PDX08-P21-AWU03	     0	       48	   1 01-DEC-20 05.17.42 PM							 02-SEP-22 12.00.23.333438 PM								1 1038418698 PDX08-P21-AWU03												   1					    37		0	   2			    02-SEP-22 12.00.23.333517 PM							 1
+     42044 -1.830E+09	    8080	  0 PDX08-P21-AWU01	     0	       48	   1 01-DEC-20 05.17.21 PM							 02-SEP-22 12.00.28.990818 PM								1 -1.830E+09 PDX08-P21-AWU01												   1					    37		0	   2			    02-SEP-22 12.00.28.990885 PM							 1
+     43045 -1.948E+09	    8080	  0 PDX09-P21-AWU01	     0	       48	   1 01-DEC-20 05.17.27 PM							 02-SEP-22 12.00.11.348715 PM								1 -1.948E+09 PDX09-P21-AWU01												   1					    38		0	   2			    02-SEP-22 12.00.11.348801 PM							 2
+     51045  -35192054	    8080	  0 PDX09-P21-AWU02	     0	       48	   1 01-DEC-20 05.17.37 PM							 02-SEP-22 12.01.02.675100 PM								1  -35192054 PDX09-P21-AWU02												   1					    38		0	   2			    02-SEP-22 12.01.02.675195 PM							 2
+     62045  887554826	    8080	  0 PDX09-P21-AWU03	     0	       48	   1 01-DEC-20 05.17.45 PM							 02-SEP-22 12.01.02.604407 PM								1  887554826 PDX09-P21-AWU03												   1					    38		0	   2			    02-SEP-22 12.01.02.604515 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB241:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:12 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:33 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+     84050  378827018	    8080	  0 SJC01-P24-AWU01	     0	       48	   1 30-OCT-21 06.05.36 PM							 02-SEP-22 12.00.35.790698 PM								1  378827018 SJC01-P24-AWU01												   1 1.0				    11		0	   2			    02-SEP-22 12.00.35.790888 PM							 1
+     82050  412381450	    8080	  0 SJC01-P24-AWU03	     0	       48	   1 30-OCT-21 06.04.09 PM							 02-SEP-22 12.00.49.549206 PM								1  412381450 SJC01-P24-AWU03												   1 1.0				    11		0	   2			    02-SEP-22 12.00.49.549361 PM							 1
+     83050  345272586	    8080	  0 SJC01-P24-AWU02	     0	       48	   1 30-OCT-21 06.04.15 PM							 02-SEP-22 12.00.49.465050 PM								1  345272586 SJC01-P24-AWU02												   1 1.0				    11		0	   2			    02-SEP-22 12.00.49.465235 PM							 1
+     60051  429946890	    8080	  0 IAD41-P24-AWU03	     0	       48	   1 30-OCT-21 06.40.07 PM							 02-SEP-22 12.00.31.447434 PM								1  429946890 IAD41-P24-AWU03												   1 1.0				    47		0	   2			    02-SEP-22 12.00.31.447588 PM							 2
+     61051  396392458	    8080	  0 IAD41-P24-AWU02	     0	       48	   1 30-OCT-21 06.40.16 PM							 02-SEP-22 12.00.31.266096 PM								1  396392458 IAD41-P24-AWU02												   1 1.0				    47		0	   2			    02-SEP-22 12.00.31.266241 PM							 2
+     62051  379615242	    8080	  0 IAD41-P24-AWU01	     0	       48	   1 30-OCT-21 06.40.48 PM							 02-SEP-22 12.00.46.480530 PM								1  379615242 IAD41-P24-AWU01												   1 1.0				    47		0	   2			    02-SEP-22 12.00.46.480696 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB242:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:17 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:38 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+     82050  412381450	    8080	  0 SJC01-P24-AWU03	     0	       48	   1 30-OCT-21 06.04.09 PM							 02-SEP-22 12.00.49.549206 PM								1  412381450 SJC01-P24-AWU03												   1 1.0				    11		0	   2			    02-SEP-22 12.00.49.549361 PM							 1
+     83050  345272586	    8080	  0 SJC01-P24-AWU02	     0	       48	   1 30-OCT-21 06.04.15 PM							 02-SEP-22 12.00.49.465050 PM								1  345272586 SJC01-P24-AWU02												   1 1.0				    11		0	   2			    02-SEP-22 12.00.49.465235 PM							 1
+     84050  378827018	    8080	  0 SJC01-P24-AWU01	     0	       48	   1 30-OCT-21 06.05.36 PM							 02-SEP-22 12.00.35.790698 PM								1  378827018 SJC01-P24-AWU01												   1 1.0				    11		0	   2			    02-SEP-22 12.00.35.790888 PM							 1
+     60051  429946890	    8080	  0 IAD41-P24-AWU03	     0	       48	   1 30-OCT-21 06.40.07 PM							 02-SEP-22 12.00.31.447434 PM								1  429946890 IAD41-P24-AWU03												   1 1.0				    47		0	   2			    02-SEP-22 12.00.31.447588 PM							 2
+     61051  396392458	    8080	  0 IAD41-P24-AWU02	     0	       48	   1 30-OCT-21 06.40.16 PM							 02-SEP-22 12.00.31.266096 PM								1  396392458 IAD41-P24-AWU02												   1 1.0				    47		0	   2			    02-SEP-22 12.00.31.266241 PM							 2
+     62051  379615242	    8080	  0 IAD41-P24-AWU01	     0	       48	   1 30-OCT-21 06.40.48 PM							 02-SEP-22 12.00.46.480530 PM								1  379615242 IAD41-P24-AWU01												   1 1.0				    47		0	   2			    02-SEP-22 12.00.46.480696 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB311:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:22 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:42 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    633064 -1.811E+09	    8080	  0 AMS01-P31-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 12.00.40.315541 PM								1 -1.811E+09 AMS01-P31-AWU01												   1					    13		0	   2			    02-SEP-22 12.00.40.315640 PM							 1
+    634064 -1.777E+09	    8080	  0 AMS01-P31-AWU02	     0	       48	   1 01-SEP-22 02.05.46 PM							 02-SEP-22 12.00.38.996494 PM								1 -1.777E+09 AMS01-P31-AWU02												   1					    13		0	   2			    02-SEP-22 12.00.38.996604 PM							 1
+    635064 -1.794E+09	    8080	  0 AMS01-P31-AWU03	     0	       48	   1 01-SEP-22 02.05.57 PM							 02-SEP-22 12.00.39.060850 PM								1 -1.794E+09 AMS01-P31-AWU03												   1					    13		0	   2			    02-SEP-22 12.00.39.060991 PM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB312:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:24 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:44 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    633064 -1.811E+09	    8080	  0 AMS01-P31-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 12.00.40.315541 PM								1 -1.811E+09 AMS01-P31-AWU01												   1					    13		0	   2			    02-SEP-22 12.00.40.315640 PM							 1
+    634064 -1.777E+09	    8080	  0 AMS01-P31-AWU02	     0	       48	   1 01-SEP-22 02.05.46 PM							 02-SEP-22 12.00.38.996494 PM								1 -1.777E+09 AMS01-P31-AWU02												   1					    13		0	   2			    02-SEP-22 12.00.38.996604 PM							 1
+    635064 -1.794E+09	    8080	  0 AMS01-P31-AWU03	     0	       48	   1 01-SEP-22 02.05.57 PM							 02-SEP-22 12.00.39.060850 PM								1 -1.794E+09 AMS01-P31-AWU03												   1					    13		0	   2			    02-SEP-22 12.00.39.060991 PM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB321:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:26 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:45 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    293067 -1.710E+09	    8080	  0 ZRH01-P32-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 12.00.50.472289 PM								1 -1.710E+09 ZRH01-P32-AWU01												   1					    14		0	   2			    02-SEP-22 12.00.50.472462 PM							 2
+    294067 -1.693E+09	    8080	  0 ZRH01-P32-AWU02	     0	       48	   1 01-SEP-22 02.05.44 PM							 02-SEP-22 12.00.49.242829 PM								1 -1.693E+09 ZRH01-P32-AWU02												   1					    14		0	   2			    02-SEP-22 12.00.49.242967 PM							 2
+    295067 -1.761E+09	    8080	  0 ZRH01-P32-AWU03	     0	       48	   1 01-SEP-22 02.05.58 PM							 02-SEP-22 12.00.49.189505 PM								1 -1.761E+09 ZRH01-P32-AWU03												   1					    14		0	   2			    02-SEP-22 12.00.49.189698 PM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB322:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:28 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:47 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    293067 -1.710E+09	    8080	  0 ZRH01-P32-AWU01	     0	       48	   1 01-SEP-22 02.05.29 PM							 02-SEP-22 12.00.50.472289 PM								1 -1.710E+09 ZRH01-P32-AWU01												   1					    14		0	   2			    02-SEP-22 12.00.50.472462 PM							 2
+    294067 -1.693E+09	    8080	  0 ZRH01-P32-AWU02	     0	       48	   1 01-SEP-22 02.05.44 PM							 02-SEP-22 12.00.49.242829 PM								1 -1.693E+09 ZRH01-P32-AWU02												   1					    14		0	   2			    02-SEP-22 12.00.49.242967 PM							 2
+    295067 -1.761E+09	    8080	  0 ZRH01-P32-AWU03	     0	       48	   1 01-SEP-22 02.05.58 PM							 02-SEP-22 12.00.49.189505 PM								1 -1.761E+09 ZRH01-P32-AWU03												   1					    14		0	   2			    02-SEP-22 12.00.49.189698 PM							 2
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB331:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:30 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:50 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    147068  672793354	    8080	  0 AWS73-P33-AWU01	     0	       48	   1 01-SEP-22 02.23.21 PM							 02-SEP-22 12.01.06.913358 PM								1  672793354 AWS73-P33-AWU01												   1					    73		0	   2			    02-SEP-22 12.01.06.913423 PM							 1
+    148068  505021194	    8080	  0 AWS73-P33-AWU02	     0	       48	   1 01-SEP-22 02.23.26 PM							 02-SEP-22 12.00.38.250742 PM								1  505021194 AWS73-P33-AWU02												   1					    73		0	   2			    02-SEP-22 12.00.38.250826 PM							 1
+    149068  303694602	    8080	  0 AWS73-P33-AWU03	     0	       48	   1 01-SEP-22 02.23.33 PM							 02-SEP-22 12.00.37.193097 PM								1  303694602 AWS73-P33-AWU03												   1					    73		0	   2			    02-SEP-22 12.00.37.193165 PM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB332:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:32 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:52 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    147068  672793354	    8080	  0 AWS73-P33-AWU01	     0	       48	   1 01-SEP-22 02.23.21 PM							 02-SEP-22 12.01.06.913358 PM								1  672793354 AWS73-P33-AWU01												   1					    73		0	   2			    02-SEP-22 12.01.06.913423 PM							 1
+    148068  505021194	    8080	  0 AWS73-P33-AWU02	     0	       48	   1 01-SEP-22 02.23.26 PM							 02-SEP-22 12.00.38.250742 PM								1  505021194 AWS73-P33-AWU02												   1					    73		0	   2			    02-SEP-22 12.00.38.250826 PM							 1
+    149068  303694602	    8080	  0 AWS73-P33-AWU03	     0	       48	   1 01-SEP-22 02.23.33 PM							 02-SEP-22 12.00.37.193097 PM								1  303694602 AWS73-P33-AWU03												   1					    73		0	   2			    02-SEP-22 12.00.37.193165 PM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB341:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:34 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:54 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    114070 -514522358	    8080	  0 FRA07-P34-AWU01	     0	       48	   1 01-SEP-22 02.23.21 PM							 02-SEP-22 12.01.07.136407 PM								1 -514522358 FRA07-P34-AWU01												   1					    75		0	   2			    02-SEP-22 12.01.07.136516 PM							 1
+    113071  290915082	    8080	  0 FRA08-P34-AWU03	     0	       48	   1 01-SEP-22 02.23.20 PM							 02-SEP-22 12.00.50.881356 PM								1  290915082 FRA08-P34-AWU03												   1					    76		0	   2			    02-SEP-22 12.00.50.881443 PM							 2
+    114071 -1.336E+09	    8080	  0 FRA08-P34-AWU01	     0	       48	   1 01-SEP-22 02.23.21 PM							 02-SEP-22 12.00.52.908536 PM								1 -1.336E+09 FRA08-P34-AWU01												   1					    76		0	   2			    02-SEP-22 12.00.52.908637 PM							 2
+    115071 -1.001E+09	    8080	  0 FRA08-P34-AWU02	     0	       48	   1 01-SEP-22 02.23.26 PM							 02-SEP-22 12.00.58.093211 PM								1 -1.001E+09 FRA08-P34-AWU02												   1					    76		0	   2			    02-SEP-22 12.00.58.093308 PM							 2
+    113070  257229578	    8080	  0 FRA07-P34-AWU03	     0	       48	   1 01-SEP-22 02.23.20 PM							 02-SEP-22 12.01.05.061535 PM								1  257229578 FRA07-P34-AWU03												   1					    75		0	   2			    02-SEP-22 12.01.05.061633 PM							 1
+    115070 1012204298	    8080	  0 FRA07-P34-AWU02	     0	       48	   1 01-SEP-22 02.23.26 PM							 02-SEP-22 12.01.04.476255 PM								1 1012204298 FRA07-P34-AWU02												   1					    75		0	   2			    02-SEP-22 12.01.04.476359 PM							 1
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB342:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:36 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:55 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+    114071 -1.336E+09	    8080	  0 FRA08-P34-AWU01	     0	       48	   1 01-SEP-22 02.23.21 PM							 02-SEP-22 12.00.52.908536 PM								1 -1.336E+09 FRA08-P34-AWU01												   1					    76		0	   2			    02-SEP-22 12.00.52.908637 PM							 2
+    113071  290915082	    8080	  0 FRA08-P34-AWU03	     0	       48	   1 01-SEP-22 02.23.20 PM							 02-SEP-22 12.00.50.881356 PM								1  290915082 FRA08-P34-AWU03												   1					    76		0	   2			    02-SEP-22 12.00.50.881443 PM							 2
+    115071 -1.001E+09	    8080	  0 FRA08-P34-AWU02	     0	       48	   1 01-SEP-22 02.23.26 PM							 02-SEP-22 12.00.58.093211 PM								1 -1.001E+09 FRA08-P34-AWU02												   1					    76		0	   2			    02-SEP-22 12.00.58.093308 PM							 2
+    113070  257229578	    8080	  0 FRA07-P34-AWU03	     0	       48	   1 01-SEP-22 02.23.20 PM							 02-SEP-22 12.01.05.061535 PM								1  257229578 FRA07-P34-AWU03												   1					    75		0	   2			    02-SEP-22 12.01.05.061633 PM							 1
+    114070 -514522358	    8080	  0 FRA07-P34-AWU01	     0	       48	   1 01-SEP-22 02.23.21 PM							 02-SEP-22 12.01.07.136407 PM								1 -514522358 FRA07-P34-AWU01												   1					    75		0	   2			    02-SEP-22 12.01.07.136516 PM							 1
+    115070 1012204298	    8080	  0 FRA07-P34-AWU02	     0	       48	   1 01-SEP-22 02.23.26 PM							 02-SEP-22 12.01.04.476255 PM								1 1012204298 FRA07-P34-AWU02												   1					    75		0	   2			    02-SEP-22 12.01.04.476359 PM							 1
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB351:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:38 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:57 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+     17072  595603466	    8080	  0 AMS01-P35-AWU01	     0	       48	   1 19-JAN-21 09.38.27 PM							 02-SEP-22 12.01.23.754823 PM								1  595603466 AMS01-P35-AWU01												   1 1.0				    13		0	   2			    02-SEP-22 12.01.23.754962 PM							 1
+     37072  729821194	    8080	  0 AMS01-P35-AWU02	     0	       48	   1 19-JAN-21 09.55.22 PM							 02-SEP-22 12.01.29.808654 PM								1  729821194 AMS01-P35-AWU02												   1 1.0				    13		0	   2			    02-SEP-22 12.01.29.808802 PM							 1
+     43072  612380682	    8080	  0 AMS01-P35-AWU03	     0	       48	   1 19-JAN-21 09.55.58 PM							 02-SEP-22 12.01.29.933116 PM								1  612380682 AMS01-P35-AWU03												   1 1.0				    13		0	   2			    02-SEP-22 12.01.29.933268 PM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB352:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:40 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:35:59 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+     17072  595603466	    8080	  0 AMS01-P35-AWU01	     0	       48	   1 19-JAN-21 09.38.27 PM							 02-SEP-22 12.01.23.754823 PM								1  595603466 AMS01-P35-AWU01												   1 1.0				    13		0	   2			    02-SEP-22 12.01.23.754962 PM							 1
+     37072  729821194	    8080	  0 AMS01-P35-AWU02	     0	       48	   1 19-JAN-21 09.55.22 PM							 02-SEP-22 12.01.29.808654 PM								1  729821194 AMS01-P35-AWU02												   1 1.0				    13		0	   2			    02-SEP-22 12.01.29.808802 PM							 1
+     43072  612380682	    8080	  0 AMS01-P35-AWU03	     0	       48	   1 19-JAN-21 09.55.58 PM							 02-SEP-22 12.01.29.933116 PM								1  612380682 AMS01-P35-AWU03												   1 1.0				    13		0	   2			    02-SEP-22 12.01.29.933268 PM							 1
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB361:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:41 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:36:01 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+     24075  345125642	    8080	  0 FRA01-P36-AWU03	     0	       48	   1 15-JUL-21 06.42.47 PM							 02-SEP-22 12.01.07.283683 PM								1  345125642 FRA01-P36-AWU03												   1 1.0				    15		0	   2			    02-SEP-22 12.01.07.283827 PM							 2
+     32075  378680074	    8080	  0 FRA01-P36-AWU02	     0	       48	   1 15-JUL-21 06.43.42 PM							 02-SEP-22 12.01.06.183053 PM								1  378680074 FRA01-P36-AWU02												   1 1.0				    15		0	   2			    02-SEP-22 12.01.06.183248 PM							 2
+     50075  714224394	    8080	  0 FRA01-P36-AWU01	     0	       48	   1 15-JUL-21 06.45.51 PM							 02-SEP-22 12.01.01.010878 PM								1  714224394 FRA01-P36-AWU01												   1 1.0				    15		0	   2			    02-SEP-22 12.01.01.011040 PM							 2
+     48074  378679306	    8080	  0 AMS01-P36-AWU03	     0	       48	   1 16-JUL-21 05.26.31 PM							 02-SEP-22 12.01.21.223219 PM								1  378679306 AMS01-P36-AWU03												   1 1.0				    13		0	   2			    02-SEP-22 12.01.21.223372 PM							 1
+     18074  345124874	    8080	  0 AMS01-P36-AWU02	     0	       48	   1 16-JUL-21 05.21.52 PM							 02-SEP-22 12.01.21.005106 PM								1  345124874 AMS01-P36-AWU02												   1 1.0				    13		0	   2			    02-SEP-22 12.01.21.005284 PM							 1
+     22074  412233738	    8080	  0 AMS01-P36-AWU01	     0	       48	   1 16-JUL-21 05.23.45 PM							 02-SEP-22 12.00.45.629254 PM								1  412233738 AMS01-P36-AWU01												   1 1.0				    13		0	   2			    02-SEP-22 12.00.45.629442 PM							 1
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB362:
+SQL*Plus: Release 12.2.0.1.0 Production on Fri Sep 2 12:01:44 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Fri Sep 02 2022 11:36:03 +04:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+  SERVERID  IPADDRESS	 TCPPORT    UDPPORT NAME		AGENTS	SRVTYPEID     STATUS REGISTERED 								 LASTONLINE								     REGISTERTYPE   PUBLICIP COMPUTERUID											    TIMEZONE VERSION			    LOCATIONID	 UDPPORT2   SETTINGS	  MSSID MSSPRIORITY LASTREGISTERED								    UNITID
+---------- ---------- ---------- ---------- --------------- ---------- ---------- ---------- --------------------------------------------------------------------------- --------------------------------------------------------------------------- ------------ ---------- ---------------------------------------------------------------------------------------------------- ---------- ------------------------------ ---------- ---------- ---------- ---------- ----------- --------------------------------------------------------------------------- ----------
+     18074  345124874	    8080	  0 AMS01-P36-AWU02	     0	       48	   1 16-JUL-21 05.21.52 PM							 02-SEP-22 12.01.21.005106 PM								1  345124874 AMS01-P36-AWU02												   1 1.0				    13		0	   2			    02-SEP-22 12.01.21.005284 PM							 1
+     22074  412233738	    8080	  0 AMS01-P36-AWU01	     0	       48	   1 16-JUL-21 05.23.45 PM							 02-SEP-22 12.00.45.629254 PM								1  412233738 AMS01-P36-AWU01												   1 1.0				    13		0	   2			    02-SEP-22 12.00.45.629442 PM							 1
+     48074  378679306	    8080	  0 AMS01-P36-AWU03	     0	       48	   1 16-JUL-21 05.26.31 PM							 02-SEP-22 12.01.21.223219 PM								1  378679306 AMS01-P36-AWU03												   1 1.0				    13		0	   2			    02-SEP-22 12.01.21.223372 PM							 1
+     24075  345125642	    8080	  0 FRA01-P36-AWU03	     0	       48	   1 15-JUL-21 06.42.47 PM							 02-SEP-22 12.01.07.283683 PM								1  345125642 FRA01-P36-AWU03												   1 1.0				    15		0	   2			    02-SEP-22 12.01.07.283827 PM							 2
+     50075  714224394	    8080	  0 FRA01-P36-AWU01	     0	       48	   1 15-JUL-21 06.45.51 PM							 02-SEP-22 12.01.01.010878 PM								1  714224394 FRA01-P36-AWU01												   1 1.0				    15		0	   2			    02-SEP-22 12.01.01.011040 PM							 2
+     32075  378680074	    8080	  0 FRA01-P36-AWU02	     0	       48	   1 15-JUL-21 06.43.42 PM							 02-SEP-22 12.01.06.183053 PM								1  378680074 FRA01-P36-AWU02												   1 1.0				    15		0	   2			    02-SEP-22 12.01.06.183248 PM							 2
+
+6 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production

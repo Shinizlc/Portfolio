@@ -10,7 +10,7 @@ from binance.enums import *
 from threading import Thread
 import talib
 import pandas as pd
-
+from datetime import datetime
 def send_telegram_message(msg):
     TOKEN = "5466685853:AAFGq0oCH2aezZq5BtWROa13AlKpbkXKstk"
     chat_id = "-753462367"
@@ -42,7 +42,10 @@ class Buy_sell_notification:
 
     def get_quantity(self):
         qnt = round(Buy_sell_notification.ammount_usdt/self.get_current_price(),2)
-        return qnt
+        if len(str(qnt))>5:
+            return round(Buy_sell_notification.ammount_usdt / self.get_current_price(), 1)
+        else:
+            return qnt
 
 
     def make_buy_order(self):
@@ -120,20 +123,40 @@ class Buy_sell_notification:
                         self.make_buy_order()
                         self.send_notification('BUY')
                     sleep(300)
-            except binance.exceptions.BinanceAPIException as err_2010:
-                if err_2010.code == -2010:
+
+            except binance.exceptions.BinanceAPIException as err_binance:
+                if err_binance.code == -2010:
                     send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin}')
                     sleep(3600)
-            except binance.exceptions.BinanceAPIException as err_1020:
-                if err_1020.code == -1020:
+                elif err_binance.code == -1020:
                     send_telegram_message(f'Could not get response in recvWindow {self.coin}')
                     sleep(300)
-            except binance.exceptions.BinanceAPIException as err_1003:
-                if err_1003.code == -1003:
+                elif err_binance.code == -1003:
                     sleep(300)
-            except requests.exceptions.ConnectionError as con_error:##were added but haven't tested yet
+                elif err_binance.code == -1013:
+                    send_telegram_message(f'Lot size for {self.coin}')
+                    sleep(300)
+                else:
+                    send_telegram_message(f'any other errors connected with binance excepetions')
+                    sleep(300)
+            except requests.exceptions.ConnectionError as con_error:  ##were added but haven't tested yet
                 print(f'connection error to binance')
                 sleep(300)
+
+            # except binance.exceptions.BinanceAPIException as err_2010:
+            #     if err_2010.code == -2010:
+            #         send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin}')
+            #         sleep(3600)
+            # except binance.exceptions.BinanceAPIException as err_1020:
+            #     if err_1020.code == -1020:
+            #         send_telegram_message(f'Could not get response in recvWindow {self.coin}')
+            #         sleep(300)
+            # except binance.exceptions.BinanceAPIException as err_1003:
+            #     if err_1003.code == -1003:
+            #         sleep(300)
+            # except requests.exceptions.ConnectionError as con_error:##were added but haven't tested yet
+            #     print(f'connection error to binance')
+            #     sleep(300)
 
 
 
@@ -174,15 +197,13 @@ class Buy_sell_notification:
 #if flag=buy then add coefficient for instance buy amount 300$ for first buy, for second amount=300$*1.1 for third amount*1.1
 #grid_price take not from current_price,but the last purchase price(from binance)
 # if __name__ ==  '__main__':
-#     Buy_sell_notification('DOTUSDT')
-   # res.send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin}')
-#     pprint(res.RSI())
+#     Buy_sell_notification('ETHUSDT')
 
 if __name__ == '__main__':
     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT']
     for c in coins:
         processes=[]
-        p=Thread(target=Buy_sell_notification,args=(c,))
+        p=Process(target=Buy_sell_notification,args=(c,))
         p.start()
 
 
