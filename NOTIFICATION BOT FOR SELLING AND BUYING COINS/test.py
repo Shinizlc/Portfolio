@@ -12,17 +12,19 @@
 #
 #
 # # print(test())
-a=[1,43,232,32,43]
-d={}
-for i in a:
-    d[i] = d.get(i, 0)+1
+# a=[1,43,232,32,43]
+# d={}
+# for i in a:
+#     d[i] = d.get(i, 0)+1
+
+
 #print([set(k,v) for k,v in d.items()])
 
 # print({k:v for k,v in sorted(d.items(),key=lambda x:x[1],reverse=True)})
 #
 # every_other_index = slice(0,None,2)
 # print(a[every_other_index])
-print([a[i] for i in range(0,len(a),2)])
+# print([a[i] for i in range(0,len(a),2)])
 
 
 

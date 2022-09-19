@@ -32,7 +32,7 @@ class Buy_sell_notification:
     def __init__(self,coin):
         self.coin = coin
         self.client = Client(Buy_sell_notification.api_key, Buy_sell_notification.api_secret)
-        self.check_price()
+        #self.check_price()
 
     def get_current_price(self):
         return float(self.client.get_symbol_ticker(symbol=self.coin)['price'])
@@ -53,7 +53,13 @@ class Buy_sell_notification:
         return self.client.create_order(symbol=self.coin, side='BUY', type='MARKET', quantity=self.get_quantity())
 
     def make_sell_order(self):
-        return self.client.create_order(symbol=self.coin, side='SELL', type='MARKET', quantity=self.get_last_order()[-1])
+        try:
+            return self.client.create_order(symbol=self.coin, side='SELL', type='MARKET', quantity=self.get_last_order()[-1])
+        except binance.exceptions.BinanceAPIException as sell_err:
+            if sell_err.code == -2010:
+                send_telegram_message(f'Not enough {self.coin}. Need deposit account with {self.coin} to sell it')
+
+
 
 
     def technical_indicators(self):
@@ -196,15 +202,17 @@ class Buy_sell_notification:
     #add buy coefficient using buy_flag
 #if flag=buy then add coefficient for instance buy amount 300$ for first buy, for second amount=300$*1.1 for third amount*1.1
 #grid_price take not from current_price,but the last purchase price(from binance)
-# if __name__ ==  '__main__':
-#     Buy_sell_notification('ETHUSDT')
+if __name__ ==  '__main__':
+    test_filusdt = Buy_sell_notification('FILUSDT')
+    test_filusdt.make_sell_order()
 
-if __name__ == '__main__':
-    coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT']
-    for c in coins:
-        processes=[]
-        p=Process(target=Buy_sell_notification,args=(c,))
-        p.start()
+
+# if __name__ == '__main__':
+#     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT','FILUSDT']
+#     for c in coins:
+#         processes=[]
+#         p=Process(target=Buy_sell_notification,args=(c,))
+#         p.start()
 
 
 
