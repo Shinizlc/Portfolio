@@ -24,8 +24,8 @@ def send_telegram_message(msg):
 
 
 class Buy_sell_notification:
-    api_key='ICsom6L51EeTLXpP8l3K8vRM7Z7fiCQsUjKxnzaiJWzOeF111HpAI0UR1tyH1W58'
-    api_secret='WPVX7PiQKLvJ07JKPQJC1tReYEAdE73UGnOqqBNSzL1yeMWb8qx1O45U4e7QpRRn'
+    api_key='Z08fipffuuLtxP7NN1sLym0F4DsqYepQUnqKI1uS6O0eypLkjq9zsAwEfKJGBd2w'
+    api_secret='jNcfUCr0uAiLko5ljZz70RmPn4ls9ucLDDQHnAx9DzBjGZLgYS0QZCsArI1yhww6'
     percent=0.2
     ammount_usdt=500
     RSI_threshold = 40
@@ -207,17 +207,17 @@ class Buy_sell_notification:
     #add buy coefficient using buy_flag
 #if flag=buy then add coefficient for instance buy amount 300$ for first buy, for second amount=300$*1.1 for third amount*1.1
 #grid_price take not from current_price,but the last purchase price(from binance)
-# if __name__ ==  '__main__':
-#     test_filusdt = Buy_sell_notification('FILUSDT')
-#     test_filusdt.make_sell_order()
+# м
 
+    # test_filusdt.make_sell_order()
+Buy_sell_notification("DOTUSDT")
 
-if __name__ == '__main__':
-    coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT','FILUSDT']
-    for c in coins:
-        processes=[]
-        p=Process(target=Buy_sell_notification,args=(c,))
-        p.start()
+# if __name__ == '__main__':
+#     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT','FILUSDT']
+#     for c in coins:
+#         processes=[]
+#         p=Process(target=Buy_sell_notification,args=(c,))
+#         p.start()
 
 
 
