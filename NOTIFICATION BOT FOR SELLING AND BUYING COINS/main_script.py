@@ -210,14 +210,14 @@ class Buy_sell_notification:
 # м
 
     # test_filusdt.make_sell_order()
-Buy_sell_notification("DOTUSDT")
+# Buy_sell_notification("DOTUSDT")
 
-# if __name__ == '__main__':
-#     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT','FILUSDT']
-#     for c in coins:
-#         processes=[]
-#         p=Process(target=Buy_sell_notification,args=(c,))
-#         p.start()
+if __name__ == '__main__':
+    coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT','FILUSDT']
+    for c in coins:
+        processes=[]
+        p=Process(target=Buy_sell_notification,args=(c,))
+        p.start()
 
 
 
