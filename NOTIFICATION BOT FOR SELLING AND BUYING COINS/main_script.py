@@ -32,7 +32,7 @@ class Buy_sell_notification:
     def __init__(self,coin):
         self.coin = coin
         self.client = Client(Buy_sell_notification.api_key, Buy_sell_notification.api_secret)
-        #self.check_price()
+        self.check_price()
 
     def get_current_price(self):
         return float(self.client.get_symbol_ticker(symbol=self.coin)['price'])
@@ -105,6 +105,8 @@ class Buy_sell_notification:
                     if current_price<=grid_price-grid_price*Buy_sell_notification.percent and buy_status==False: #and self.get_balance('USDT')>=Buy_sell_notification.ammount_usdt:
                         self.make_buy_order()
                         self.send_notification('BUY')
+                    # elif :
+                    #     pass
 
 
                       #купили и цена пошла еще ниже на percent => еще докупаем
@@ -117,7 +119,7 @@ class Buy_sell_notification:
                         self.make_buy_order()
                         self.send_notification('BUY')
                     #купили и цена пошла вверх => Продаем
-                    elif current_price>=grid_price+grid_price*Buy_sell_notification.percent and buy_status==True and self.get_balance(str(self.coin))>=self.get_last_order()[-1]:
+                    elif current_price>=grid_price+grid_price*Buy_sell_notification.percent and self.get_balance(str(self.coin))>=self.get_last_order()[-1]:#and buy_status==True :
                         self.make_sell_order()
                         self.send_notification('SELL')
                     else:
@@ -142,6 +144,9 @@ class Buy_sell_notification:
                 elif err_binance.code == -1013:
                     send_telegram_message(f'Lot size for {self.coin}')
                     sleep(300)
+                elif err_binance.code == -2015:
+                    send_telegram_message(f'API key is expired')
+                    sleep(300)
                 else:
                     send_telegram_message(f'any other errors connected with binance excepetions')
                     sleep(300)
@@ -149,20 +154,20 @@ class Buy_sell_notification:
                 print(f'connection error to binance')
                 sleep(300)
 
-            # except binance.exceptions.BinanceAPIException as err_2010:
-            #     if err_2010.code == -2010:
-            #         send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin}')
-            #         sleep(3600)
-            # except binance.exceptions.BinanceAPIException as err_1020:
-            #     if err_1020.code == -1020:
-            #         send_telegram_message(f'Could not get response in recvWindow {self.coin}')
-            #         sleep(300)
-            # except binance.exceptions.BinanceAPIException as err_1003:
-            #     if err_1003.code == -1003:
-            #         sleep(300)
-            # except requests.exceptions.ConnectionError as con_error:##were added but haven't tested yet
-            #     print(f'connection error to binance')
-            #     sleep(300)
+            except binance.exceptions.BinanceAPIException as err_2010:
+                if err_2010.code == -2010:
+                    send_telegram_message(f'Not enough USDT. Need deposit account to buy {self.coin}')
+                    sleep(3600)
+            except binance.exceptions.BinanceAPIException as err_1020:
+                if err_1020.code == -1020:
+                    send_telegram_message(f'Could not get response in recvWindow {self.coin}')
+                    sleep(300)
+            except binance.exceptions.BinanceAPIException as err_1003:
+                if err_1003.code == -1003:
+                    sleep(300)
+            except requests.exceptions.ConnectionError as con_error:##were added but haven't tested yet
+                print(f'connection error to binance')
+                sleep(300)
 
 
 
@@ -202,17 +207,17 @@ class Buy_sell_notification:
     #add buy coefficient using buy_flag
 #if flag=buy then add coefficient for instance buy amount 300$ for first buy, for second amount=300$*1.1 for third amount*1.1
 #grid_price take not from current_price,but the last purchase price(from binance)
-if __name__ ==  '__main__':
-    test_filusdt = Buy_sell_notification('FILUSDT')
-    test_filusdt.make_sell_order()
+# if __name__ ==  '__main__':
+#     test_filusdt = Buy_sell_notification('FILUSDT')
+#     test_filusdt.make_sell_order()
 
 
-# if __name__ == '__main__':
-#     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT','FILUSDT']
-#     for c in coins:
-#         processes=[]
-#         p=Process(target=Buy_sell_notification,args=(c,))
-#         p.start()
+if __name__ == '__main__':
+    coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT','FILUSDT']
+    for c in coins:
+        processes=[]
+        p=Process(target=Buy_sell_notification,args=(c,))
+        p.start()
 
 
 

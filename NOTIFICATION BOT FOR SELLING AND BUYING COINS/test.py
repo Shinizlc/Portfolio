@@ -42,3 +42,10 @@
 # d2={'k3':2323,'k4':325885454}
 # d3={**d1,**d2}
 # print(d3)
+
+
+
+def test_func(x=2,y=5):
+    return x+y
+
+print(test_func(332,3232))
