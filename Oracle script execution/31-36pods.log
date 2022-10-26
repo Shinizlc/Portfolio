@@ -1,0 +1,486 @@
+
+
+
+###################################
+DATA From database PRO-ADB311:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:02:26 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Wed Oct 19 2022 19:01:56 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+1693726064	13180		  32
+1490759064	   84		  26
+ 488917065	   67		  14
+1242125064	   60		  12
+1064400064	   54		  21
+1564232064	   50		   8
+1200268064	   42		   9
+6.2213E+10	   42		  13
+2131964064	   27		   7
+ 968691064	   25		  12
+1208290064	   23		   4
+1583072064	   20		   6
+1474498064	   13		   8
+1316450064	   11		   6
+2009835064	   10		   5
+ 421306064	    9		   5
+ 611905065	    9		   4
+ 316524065	    8		   2
+ 546742064	    7		   5
+1257856064	    7		   5
+1302537064	    7		   4
+1469496064	    7		   3
+1025375064	    7		   3
+ 470523064	    6		   4
+2017202064	    6		   5
+ 464506064	    6		   3
+ 393349065	    5		   4
+ 502368064	    5		   5
+2695540064	    5		   2
+1158426064	    5		   3
+ 747784064	    4		   3
+6.1985E+10	    3		   2
+1653678064	    3		   2
+1641630064	    3		   2
+2393483064	    3		   1
+1255548064	    3		   2
+2598839064	    2		   1
+1628278064	    2		   2
+ 606395064	    2		   1
+1315171064	    2		   2
+ 554997064	    2		   1
+1202539064	    2		   2
+  64852324	    2		   1
+1991926064	    2		   1
+ 650065064	    1		   1
+ 997145064	    1		   1
+ 842384064	    1		   1
+1244318064	    1		   1
+6.1372E+10	    1		   1
+2424921064	    1		   1
+1321113064	    1		   1
+1258858064	    1		   1
+2277733064	    1		   1
+1250225064	    1		   1
+2695606064	    1		   1
+2266185064	    1		   1
+ 729756064	    1		   1
+ 615066064	    1		   1
+2639367064	    1		   1
+1244774064	    1		   1
+2303222064	    1		   1
+2559598064	    1		   1
+
+62 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB312:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:02:28 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:16:23 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+1693726064	13180		  32
+1490759064	   84		  26
+ 488917065	   67		  14
+1242125064	   60		  12
+1064400064	   54		  21
+1564232064	   50		   8
+1200268064	   42		   9
+6.2213E+10	   42		  13
+2131964064	   27		   7
+ 968691064	   25		  12
+1208290064	   23		   4
+1583072064	   20		   6
+1474498064	   13		   8
+1316450064	   11		   6
+2009835064	   10		   5
+ 611905065	    9		   4
+ 421306064	    9		   5
+ 316524065	    8		   2
+ 546742064	    7		   5
+1257856064	    7		   5
+1469496064	    7		   3
+1302537064	    7		   4
+1025375064	    7		   3
+2017202064	    6		   5
+ 464506064	    6		   3
+ 470523064	    6		   4
+ 502368064	    5		   5
+ 393349065	    5		   4
+1158426064	    5		   3
+2695540064	    5		   2
+ 747784064	    4		   3
+1255548064	    3		   2
+1653678064	    3		   2
+1641630064	    3		   2
+6.1985E+10	    3		   2
+2393483064	    3		   1
+1628278064	    2		   2
+1202539064	    2		   2
+ 606395064	    2		   1
+ 554997064	    2		   1
+1315171064	    2		   2
+2598839064	    2		   1
+1991926064	    2		   1
+  64852324	    2		   1
+ 650065064	    1		   1
+ 842384064	    1		   1
+2424921064	    1		   1
+1244318064	    1		   1
+6.1372E+10	    1		   1
+1321113064	    1		   1
+2277733064	    1		   1
+1258858064	    1		   1
+ 729756064	    1		   1
+ 615066064	    1		   1
+2266185064	    1		   1
+2303222064	    1		   1
+1244774064	    1		   1
+2639367064	    1		   1
+1250225064	    1		   1
+2559598064	    1		   1
+2695606064	    1		   1
+ 997145064	    1		   1
+
+62 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB321:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:02:45 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:16:28 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+ 720297067	 1319		  23
+1489786064	 1218		  24
+ 607948067	  134		  16
+1487379064	  101		  20
+ 503087067	   75		   6
+1564180064	   22		  11
+1674456064	   21		   7
+  59564987	   19		   7
+ 621149067	    9		   3
+ 524208067	    9		   4
+ 387496067	    7		   2
+1409161064	    6		   2
+ 585568067	    5		   5
+ 304146067	    5		   5
+1450425064	    4		   2
+1346422064	    4		   3
+ 167591066	    3		   1
+1454266064	    3		   1
+ 686595067	    3		   3
+ 181660067	    3		   2
+1811515064	    2		   1
+ 591498067	    2		   1
+ 303257067	    2		   2
+ 569894067	    2		   1
+1708001064	    2		   1
+ 445229065	    2		   1
+1354261064	    1		   1
+6.2114E+10	    1		   1
+ 684194067	    1		   1
+ 462035067	    1		   1
+ 196098067	    1		   1
+ 245535066	    1		   1
+
+32 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB322:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:00 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:16:31 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+ 720297067	 1319		  23
+1489786064	 1218		  24
+ 607948067	  134		  16
+1487379064	  101		  20
+ 503087067	   75		   6
+1564180064	   22		  11
+1674456064	   21		   7
+  59564987	   19		   7
+ 621149067	    9		   3
+ 524208067	    9		   4
+ 387496067	    7		   2
+1409161064	    6		   2
+ 585568067	    5		   5
+ 304146067	    5		   5
+1450425064	    4		   2
+1346422064	    4		   3
+ 167591066	    3		   1
+1454266064	    3		   1
+ 686595067	    3		   3
+ 181660067	    3		   2
+1811515064	    2		   1
+ 591498067	    2		   1
+ 303257067	    2		   2
+ 569894067	    2		   1
+1708001064	    2		   1
+ 445229065	    2		   1
+1354261064	    1		   1
+6.2114E+10	    1		   1
+ 684194067	    1		   1
+ 462035067	    1		   1
+ 196098067	    1		   1
+ 245535066	    1		   1
+
+32 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB331:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:04 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:16:36 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+ 628704067	  104		   8
+ 268351068	   13		   5
+ 285765068	    8		   5
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB332:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:05 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:16:39 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+ 628704067	  104		   8
+ 268351068	   13		   5
+ 285765068	    8		   5
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB341:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:06 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 20:04:57 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+ 417506071	   92		  29
+ 401923071	   13		   2
+ 134344071	    9		   4
+ 192328071	    7		   2
+ 169499071	    6		   1
+ 240055071	    6		   1
+ 192734070	    4		   2
+ 139582073	    3		   2
+ 309851071	    2		   1
+ 309853071	    2		   2
+ 422609071	    2		   1
+ 413093071	    2		   1
+ 436635071	    2		   2
+ 273441071	    2		   1
+ 309857071	    2		   1
+ 179223070	    2		   1
+ 192269070	    1		   1
+ 415433071	    1		   1
+ 311306071	    1		   1
+ 422616071	    1		   1
+ 311308071	    1		   1
+ 311357071	    1		   1
+ 195357071	    1		   1
+ 422607071	    1		   1
+ 139530073	    1		   1
+
+25 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB342:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:07 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 20:05:29 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+ 417506071	   92		  29
+ 401923071	   13		   2
+ 134344071	    9		   4
+ 192328071	    7		   2
+ 169499071	    6		   1
+ 240055071	    6		   1
+ 192734070	    4		   2
+ 139582073	    3		   2
+ 309851071	    2		   1
+ 309853071	    2		   2
+ 422609071	    2		   1
+ 413093071	    2		   1
+ 436635071	    2		   2
+ 273441071	    2		   1
+ 309857071	    2		   1
+ 179223070	    2		   1
+ 192269070	    1		   1
+ 415433071	    1		   1
+ 311306071	    1		   1
+ 422616071	    1		   1
+ 311308071	    1		   1
+ 311357071	    1		   1
+ 195357071	    1		   1
+ 422607071	    1		   1
+ 139530073	    1		   1
+
+25 rows selected.
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB351:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:09 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:16:50 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+ 131770073	  209		  30
+ 137826072	  188		  23
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB352:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:10 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:16:56 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+    USERID     CNTE2F NUMBEOFDAYSE2F
+---------- ---------- --------------
+ 131770073	  209		  30
+ 137826072	  188		  23
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB361:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:11 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:16:59 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+
+###################################
+DATA From database PRO-ADB362:
+SQL*Plus: Release 12.2.0.1.0 Production on Wed Oct 19 19:03:12 2022
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Oct 18 2022 12:17:02 +02:00
+
+Connected to:
+Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
+
+
+no rows selected
+
+SQL> Disconnected from Oracle Database 19c Standard Edition 2 Release 19.0.0.0.0 - Production
