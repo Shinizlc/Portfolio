@@ -55,7 +55,7 @@ abi = json.loads('''[
 		"type": "function"
 	}
 ]''')
-contract_address = '0x6E6301A216e438e0fB85590DB4460F8bF956B4C3'
+contract_address = ''
 signature = 'ce3038308761279b92fcffb1b8ae7dbd5ce113463a663257438e3945353e21d1'
 from_address = '0x96670E97EB5fe41Fbfe0Df83F1eA24aA14c26E86'
 goerli_url = 'https://goerli.infura.io/v3/6cda95a972fe4e168a9057235825b257'

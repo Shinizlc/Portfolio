@@ -152,22 +152,20 @@ import re
 # b=Test_variables(10)
 # print(vars(Test_variables))
 # print(dir(Test_variables))
-from collections import defaultdict
-d= defaultdict(list)
-l = [2, 4, 0, 100, 4, 11, 2602, 36]
-def check(l):
-    for i in l:
-        if i%2==0:
-            if len(d['even']) == 1 and len(d['odd']==1):
-                return d['odd']
-            else:
-                d['even'].append(i)
-        else:
-            if len(d['even']) == 1 and len(d['odd'] == 1):
-                return d['even']
-            else:
-                d['odd'].append()
-
-check(l)
 
 
+
+class CustomError(Exception):
+    pass
+
+
+def test_custom(x):
+    if x<5:
+        raise CustomError
+
+
+if __name__ == '__main__':
+    try:
+        test_custom(2)
+    except CustomError:
+        print('custom error occured')

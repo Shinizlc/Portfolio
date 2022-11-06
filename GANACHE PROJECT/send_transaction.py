@@ -63,7 +63,7 @@ raw_tx = {'nonce': nonce,
 key = contract.functions.setGreeting('TEETETTE').buildTransaction({'nonce': nonce})
 tx_singed = w3.eth.account.signTransaction(key,private_key)
 w3.eth.sendRawTransaction(tx_singed.rawTransaction)
-print(contract.functions.greet().call())
+# print(contract.functions.greet().call())
 
 
 

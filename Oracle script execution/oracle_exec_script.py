@@ -2,6 +2,7 @@
 import subprocess as sp
 from loguru import logger
 import os
+import csv
 from columnar import Columnar
 os.environ['PATH']='/Users/aleksei.semerikov/OracleClient/instantclient_12_2:/Users/aleksei.semerikov/OracleClient/instantclient_12_2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands'
 os.environ['TNS_ADMIN']='/Users/aleksei.semerikov/OracleClient/instantclient_12_2/network'
@@ -17,7 +18,7 @@ list_of_db=['PRO-ADB311','PRO-ADB312','PRO-ADB321','PRO-ADB322','PRO-ADB331',
             'PRO-ADB332','PRO-ADB341','PRO-ADB342','PRO-ADB351','PRO-ADB352','PRO-ADB361','PRO-ADB362']
 
 
-
+# list_of_db=['PRO-ADB311']
 
 
 
@@ -26,7 +27,7 @@ list_of_db=['PRO-ADB311','PRO-ADB312','PRO-ADB321','PRO-ADB322','PRO-ADB331',
 with open('31-36pods.log', 'w') as file:
     for db in list_of_db:
     #why do we need the stdin=sp.PIPE even if we don't use input(I can't see the output without it)
-        with sp.Popen(['sqlplus','system/euLagoon2209@'+db,'@sql_script.sql'],stdin=sp.PIPE,stdout=sp.PIPE,stderr=sp.PIPE) as com:
+        with sp.Popen(['sqlplus','system/euLagoon2710@'+db,'@sql_script.sql'],stdin=sp.PIPE,stdout=sp.PIPE,stderr=sp.PIPE) as com:
             out,err = com.communicate()
             file.writelines('\n')
             file.writelines('\n')
@@ -35,7 +36,6 @@ with open('31-36pods.log', 'w') as file:
             file.writelines(f'DATA From database {db}:')
             for line in out.decode().splitlines():
                 file.writelines(line+'\n')
-
 
 
 
