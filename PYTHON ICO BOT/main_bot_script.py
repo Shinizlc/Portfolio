@@ -4,7 +4,7 @@ import json
 import asyncio
 
 class ICO_BOT:
-    infura_url = 'https://mainnet.infura.io/v3/6cda95a972fe4e168a9057235825b257'
+    #infura_url = 'https://mainnet.infura.io/v3/6cda95a972fe4e168a9057235825b257'
     goerli_url = 'https://goerli.infura.io/v3/6cda95a972fe4e168a9057235825b257'
     w3 = Web3(Web3.HTTPProvider(goerli_url))
     uniswap_router = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'
@@ -17,12 +17,11 @@ class ICO_BOT:
     my_address_in_goeri = '0x96670E97EB5fe41Fbfe0Df83F1eA24aA14c26E86'
     private_key = 'ce3038308761279b92fcffb1b8ae7dbd5ce113463a663257438e3945353e21d1'
     ######my contract address
-    my_contract_address='0xacC57823188129BB8504aC25fb5Fdd7185FC59C4'
+    my_contract_address='0x2600C38226B0aBeCda5DB665dCFb150a3354c9Cb'
+    weth_buy_threshold = 100000000000000000
+    weth_abi  = json.loads('[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"guy","type":"address"},{"name":"wad","type":"uint256"}],"name":"approve","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"src","type":"address"},{"name":"dst","type":"address"},{"name":"wad","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"wad","type":"uint256"}],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"balanceOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"dst","type":"address"},{"name":"wad","type":"uint256"}],"name":"transfer","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"deposit","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"address"}],"name":"allowance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":true,"name":"guy","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":true,"name":"dst","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"dst","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Withdrawal","type":"event"}]')
+    weth_contact = w3.eth.contract(address = weth_goerli,abi = weth_abi)
     my_contract_abi=json.loads('''[
-	{
-		"stateMutability": "payable",
-		"type": "fallback"
-	},
 	{
 		"inputs": [
 			{
@@ -64,9 +63,68 @@ class ICO_BOT:
 				"type": "uint256"
 			}
 		],
-		"name": "approve_for_uniswap",
+		"name": "send_and_approve_WETH",
 		"outputs": [],
 		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			}
+		],
+		"name": "send_weth_to_wallet",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "fallback"
+	},
+	{
+		"inputs": [],
+		"name": "withdraw_funds",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	},
+	{
+		"inputs": [],
+		"name": "get_balance_ETH",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "get_balance_WETH",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
 		"type": "function"
 	},
 	{
@@ -97,30 +155,19 @@ class ICO_BOT:
 		],
 		"stateMutability": "view",
 		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "get_balance",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"stateMutability": "payable",
-		"type": "receive"
 	}
 ]''')
     my_contract = w3.eth.contract(address=my_contract_address,abi = my_contract_abi)
 
 
-    #def __init__(self):
-        #self.main()
+    # def __init__(self):
+        # self.approve_contract_to_use_my_weth()
+
+    def approve_contract_to_use_my_weth(self):
+        nonce = ICO_BOT.w3.eth.get_transaction_count(ICO_BOT.my_address_in_goeri)
+        tx = ICO_BOT.weth_contact.functions.approve(ICO_BOT.my_contract_address,1000000000000000000).build_transaction({'nonce':nonce})
+        signed_tx = ICO_BOT.w3.eth.account.signTransaction(tx,ICO_BOT.private_key)
+        ICO_BOT.w3.eth.sendRawTransaction(signed_tx.rawTransaction)
 
     def handle_event(self,event):
         token0,token1,pair = json.loads(Web3.toJSON(event))['args']['token0'],json.loads(Web3.toJSON(event))['args']['token1'],json.loads(Web3.toJSON(event))['args']['pair']
@@ -132,28 +179,46 @@ class ICO_BOT:
             token_in = token1
             token_out = token0
         else:
-            pass
+            return None
         print(f'ETH or WETH is {token_in},other token is {token_out}')
-        return token_in, token_out
+        return token_in, token_out, pair
 
 
     async def log_loop(self,event_filter, poll_interval):
         while True:
             for PairCreated in event_filter.get_new_entries():
-                token_in, token_out = self.handle_event(PairCreated)
-                #self.get_min_amount_to_buy(token_in,token_out)
+                try:
+                    token_in, token_out,pair = self.handle_event(PairCreated)
+                    #print(token_in, token_out, pair)
+                    min_amount_to_get = self.get_min_amount_to_buy(token_in,token_out)
+                    if min_amount_to_get is not None:
+                        print(f'min amount to get {min_amount_to_get}')
+                        #return min_amount_to_get
+                except:
+                    print(f'return some shity stuff')
             await asyncio.sleep(poll_interval)
 
-    def get_min_amount_to_buy(self,token_in,token_out,amount_in):
+
+    def get_min_amount_to_buy(self,token_in,token_out,amount_in=100000000000000000):
         try:
-        # nonce=ICO_BOT.w3.eth.get_transaction_count(ICO_BOT.my_address_in_goeri)
-        # tx = {'nonce':nonce,'from':ICO_BOT.my_address_in_goeri}
-        # tx_raw= ICO_BOT.my_contract.functions.getAmountOutMin(token_in,token_out,amount_in).buildTransaction(tx)
-        # tx_singed = ICO_BOT.w3.eth.account.signTransaction(tx_raw,ICO_BOT.private_key)
-        # ICO_BOT.w3.eth.sendRawTransaction(tx_singed)
-            print(ICO_BOT.my_contract.functions.getAmountOutMin(token_in,token_out,amount_in).call())
+            return ICO_BOT.my_contract.functions.getAmountOutMin(token_in,token_out,amount_in).call()
         except web3.exceptions.ContractLogicError:
             print(f'Not enough liquidity. Try another pair or another amount')
+            return None
+
+    def get_weth_balance(self):
+        return ICO_BOT.my_contract.functions.get_balance_WETH().call()
+
+    def add_weth_to_contract(self):
+        nonce = ICO_BOT.w3.eth.get_transaction_count(ICO_BOT.my_address_in_goeri)
+        tx = ICO_BOT.my_contract.functions.send_and_approve_WETH(ICO_BOT.weth_buy_threshold).build_transaction({'nonce':nonce,'gas':3000000})
+        signed_tx = ICO_BOT.w3.eth.account.signTransaction(tx,ICO_BOT.private_key)
+        ICO_BOT.w3.eth.sendRawTransaction(signed_tx.rawTransaction)
+
+
+    def set_propet_weth_amount(self):
+        if self.get_weth_balance()<ICO_BOT.weth_buy_threshold:
+            self.add_weth_to_contract()
 
 
     def set_take_profit(self):
@@ -170,5 +235,7 @@ class ICO_BOT:
 
 #85357340
 ico_bot1 = ICO_BOT()
+ico_bot1.add_weth_to_contract()
+# ico_bot1.add_weth_to_contract()
 # ico_bot1.get_min_amount_to_buy('0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6','0xCBB9E0434A8c40eEDA57a1CE232d39272a5EC05C',1000000000000000)
-ico_bot1.get_min_amount_to_buy('0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6','0x5C47740624Eac41cbf60Ff91b64A0500De4291E0',100000000000000000)
+#ico_bot1.get_min_amount_to_buy('0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6','0x5C47740624Eac41cbf60Ff91b64A0500De4291E0',100000000000000000)

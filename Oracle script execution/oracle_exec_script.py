@@ -3,6 +3,7 @@ import subprocess as sp
 from loguru import logger
 import os
 import csv
+import cx_Oracle
 from columnar import Columnar
 os.environ['PATH']='/Users/aleksei.semerikov/OracleClient/instantclient_12_2:/Users/aleksei.semerikov/OracleClient/instantclient_12_2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands'
 os.environ['TNS_ADMIN']='/Users/aleksei.semerikov/OracleClient/instantclient_12_2/network'
@@ -24,19 +25,25 @@ list_of_db=['PRO-ADB311','PRO-ADB312','PRO-ADB321','PRO-ADB322','PRO-ADB331',
 
 # list_of_db=['OPS-STG-ADB011','OPS-STG-ADB012','OPS-STG-ADB021','OPS-STG-ADB022']
 
-with open('31-36pods.log', 'w') as file:
-    for db in list_of_db:
-    #why do we need the stdin=sp.PIPE even if we don't use input(I can't see the output without it)
-        with sp.Popen(['sqlplus','system/euLagoon2710@'+db,'@sql_script.sql'],stdin=sp.PIPE,stdout=sp.PIPE,stderr=sp.PIPE) as com:
-            out,err = com.communicate()
-            file.writelines('\n')
-            file.writelines('\n')
-            file.writelines('\n')
-            file.writelines(f'###################################'+'\n')
-            file.writelines(f'DATA From database {db}:')
-            for line in out.decode().splitlines():
-                file.writelines(line+'\n')
+# with open('31-36pods.log', 'w') as file:
+#     for db in list_of_db:
+#     #why do we need the stdin=sp.PIPE even if we don't use input(I can't see the output without it)
+#         with sp.Popen(['sqlplus','system/euLagoon2710@'+db,'@sql_script.sql'],stdin=sp.PIPE,stdout=sp.PIPE,stderr=sp.PIPE) as com:
+#             out,err = com.communicate()
+#             file.writelines('\n')
+#             file.writelines('\n')
+#             file.writelines('\n')
+#             file.writelines(f'###################################'+'\n')
+#             file.writelines(f'DATA From database {db}:')
+#             for line in out.decode().splitlines():
+#                 file.writelines(line+'\n')
+for instance in list_of_db:
+    connection =  cx_Oracle.connect(user="zportal", password="Minas_13Lugrom",
+                                       dsn=instance)
 
-
-
+    with open('output_'+instance+'.csv','w') as file:
+        writer = csv.writer(file)
+        cursor = connection.cursor()
+        result = cursor.execute('''SELECT  parameter,value,SERVICELEVEL,BRANDID FROM SERVICES WHERE PARAMETER in (136,259,812) order by BRANDID asc''')
+        writer.writerows(result)
 

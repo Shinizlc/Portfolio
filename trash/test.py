@@ -53,7 +53,34 @@ from time import sleep
 # if __name__ == '__main__':
 #     main_function()
 
-import json
-a='''{"a":5,"b":25}'''
-t = json.loads(a)
-print(t)
+# import threading
+# from time import sleep
+#
+# def first_thread():
+#     for i in range(10):
+#         print('progressing thread 1')
+#         sleep(1)
+#
+#
+# def second_thread():
+#     for i in range(5):
+#         print('progressing thread 2')
+#         sleep(1)
+#
+#
+# def main_function():
+#     print(f'start main programm')
+#     thread1 = threading.Thread(target=first_thread)
+#     thread2 = threading.Thread(target=second_thread)
+#     thread1.start()
+#     thread2.start()
+#     thread2.join()
+#     print(f'end main programm')
+#
+#
+#
+# if __name__ == '__main__':
+#     main_function()
+
+
+
