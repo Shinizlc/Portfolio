@@ -66,8 +66,8 @@ def second_thread():
     for i in range(5):
         print('progressing thread 2')
         sleep(1)
-
-
+#
+#
 def main_function():
     print(f'start main programm')
     thread1 = threading.Thread(target=first_thread)
@@ -76,11 +76,14 @@ def main_function():
     thread2.start()
     thread2.join()
     print(f'end main programm')
-
-
-
+#
+#
+#
 if __name__ == '__main__':
     main_function()
 
 
-
+# def test(a,b,c=4):
+#     print(a,b,c)
+#
+# test(1,2,c=None)

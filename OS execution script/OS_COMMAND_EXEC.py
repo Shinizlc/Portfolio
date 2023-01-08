@@ -9,7 +9,9 @@ hosts=['sjc01-c01-ldb20','sjc01-c01-ldb21','sjc01-c01-ldb22','sjc01-c01-ldb23','
 # 'iad41-c01-ldb04','iad41-c01-ldb05','iad41-c01-ldb06','iad41-c01-ldb07','iad41-c01-ldb08','iad41-c01-ldb09',
 # 'iad41-c01-ldb10','iad41-c01-ldb11','iad41-c01-ldb12','iad41-c01-ldb13','iad41-c01-ldb14','iad41-c01-ldb15',
 # 'iad41-c01-ldb16','iad41-c01-ldb17','iad41-c01-ldb18','iad41-c01-ldb19','iad41-c01-ldb20','iad41-c01-ldb21','iad41-c01-ldb22','iad41-c01-ldb23','iad41-c01-ldb24']
-command='df -h | grep -i data'
+
+
+command='grep -i nfs /etc/fstab'
 
 
 
@@ -17,7 +19,7 @@ paramiko_client = paramiko.SSHClient()
 paramiko_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 for host in hosts:
     try:
-        paramiko_client.connect(host, password='Px2h69tuPNEuPwyQ', username='Aleksei.Semerikov')
+        paramiko_client.connect(host, password='iv2QcNL8hBNPaQdW', username='Aleksei.Semerikov')
         stdin,stdout,stderr = paramiko_client.exec_command(command)
         pprint('#############################################')
         pprint(f'The command "{command}" was executed on {host} host')

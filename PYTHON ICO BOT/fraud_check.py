@@ -28,7 +28,7 @@ class Fraud_Contract(ICO_BOT):
 
     def liquidity_check(self):
         weth_on_contract = super().my_contract.functions.check_contract_liquidity(self.pair).call()
-        if Web3.fromWei(weth_on_contract,'ether')>=.5:
+        if Web3.fromWei(weth_on_contract,'ether')>=.1:
             return True
 
 
@@ -39,6 +39,7 @@ class Fraud_Contract(ICO_BOT):
 check_pair = Fraud_Contract('0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6','0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6','0xd54f26a537C15738bf88645fD6B9806F8C9a0f9F')
 # check_pair.honeypot_check()
 print(check_pair.liquidity_check())
+
 
 
 
