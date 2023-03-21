@@ -1,0 +1,52 @@
+PRO-ADB011,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB011 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.015390,run_duration_time:0:13:43"
+PRO-ADB022,JOB$_RUNGARBAGE,"Job hasn""t been started today yet"
+PRO-ADB032,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB032 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.051439,run_duration_time:0:00:08"
+PRO-ADB042,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB042 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.042624,run_duration_time:0:21:53"
+PRO-ADB051,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB051 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.064686,run_duration_time:0:05:15"
+PRO-ADB062,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB062 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.028361,run_duration_time:0:04:59"
+PRO-ADB071,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB071 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.032451,run_duration_time:0:13:40"
+PRO-ADB082,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB082 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.039783,run_duration_time:0:09:24"
+PRO-ADB091,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB091 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.082491,run_duration_time:0:00:06"
+PRO-ADB102,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB102 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.027014,run_duration_time:0:14:56"
+PRO-ADB111,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB111 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.052415,run_duration_time:0:00:12"
+PRO-ADB122,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB122 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.060893,run_duration_time:0:00:16"
+PRO-ADB131,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB131 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.023974,run_duration_time:0:10:48"
+PRO-ADB142,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB142 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.010864,run_duration_time:0:00:21"
+PRO-ADB151,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB151 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.037721,run_duration_time:0:14:01"
+PRO-ADB162,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB162 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.028820,run_duration_time:0:02:43"
+PRO-ADB171,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB171 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.058565,run_duration_time:0:04:04"
+PRO-ADB191,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB191 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.067920,run_duration_time:0:04:52"
+PRO-ADB202,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB202 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.111119,run_duration_time:0:00:19"
+PRO-ADB211,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB211 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.008520,run_duration_time:0:03:03"
+PRO-ADB231,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB231 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.032367,run_duration_time:0:09:16"
+PRO-ADB242,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB242 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.030563,run_duration_time:0:00:25"
+PRO-ADB022,JOB$_RUNGARBAGE,"A status for JOB$_RUNGARBAGE job in unit PRO-ADB022 is SUCCEEDED,actual_start_date:2023-02-07 12:00:00.169631,run_duration_time:0:27:56"
+PRO-ADB022,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB011,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB022,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB032,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB042,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB051,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB062,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB071,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB082,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB091,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB102,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB111,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB122,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB131,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB142,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB151,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB162,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB171,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB191,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB011,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB022,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB032,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB042,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB051,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB062,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB071,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB082,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB091,JOB$_UQ_ACTIVE_ACTIONS,Job is still running
+PRO-ADB102,JOB$_UQ_ACTIVE_ACTIONS,Job is still running

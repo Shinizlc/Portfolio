@@ -27,7 +27,7 @@ interface IUniswapV2Router {
 contract Uniswap {
 
     address private constant uniswap_goerli = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
-    address private constant WETH_Goerli = 0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6;
+    address private constant WETH_Goerli = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
     //address private constant ETH_Goerli = 0x8d27431c473E83611847D195d325972e80D1F4c1;
     address private immutable owner;
 
@@ -103,12 +103,19 @@ constructor() {
         return ERC20(_token).balanceOf(address(this));
     }
 
+    function get_token_decimals(address _token) public view returns(uint){
+        return ERC20(_token).decimals();
+    }
+///we may also transfer all balance:
+/// balance = get_balance_token()
+//ERC20(WETH_Goerli).transfer(msg.sender,balance);
+
     function send_weth_to_wallet(uint _amount) public{
-        ERC20(WETH_Goerli).transfer(msg.sender,_amount);
+        ERC20(WETH_Goerli).transfer(owner,_amount);
     }
 
     function withdraw_funds() public {
-        (bool success_flag,) = payable(msg.sender).call{value:address(this).balance}("");
+        (bool success_flag,) = payable(owner).call{value:address(this).balance}("");
         require(success_flag,'The withdraw was unsuccefull');
     }
 

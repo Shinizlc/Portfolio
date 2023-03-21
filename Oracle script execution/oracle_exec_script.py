@@ -9,25 +9,29 @@ os.environ['PATH']='/Users/aleksei.semerikov/OracleClient/instantclient_12_2:/Us
 os.environ['TNS_ADMIN']='/Users/aleksei.semerikov/OracleClient/instantclient_12_2/network'
 os.environ['ORACLE_HOME']='/Users/aleksei.semerikov/OracleClient/instantclient_12_2'
 
+
+    #Stage PODs
+# list_of_db=['OPS-STG-ADB011','OPS-STG-ADB012','OPS-STG-ADB021','OPS-STG-ADB022']
+# list_of_db=['OPS-STG-ADB011']
+     #NA PODs
 # list_of_db=['PRO-ADB011', 'PRO-ADB012','PRO-ADB021', 'PRO-ADB022','PRO-ADB031', 'PRO-ADB032','PRO-ADB041', 'PRO-ADB042','PRO-ADB051','PRO-ADB052',
 # 'PRO-ADB061', 'PRO-ADB062','PRO-ADB071', 'PRO-ADB072','PRO-ADB081','PRO-ADB082','PRO-ADB091','PRO-ADB092','PRO-ADB101','PRO-ADB102','PRO-ADB111',
 # 'PRO-ADB112','PRO-ADB121','PRO-ADB122','PRO-ADB131','PRO-ADB132','PRO-ADB141','PRO-ADB142','PRO-ADB151','PRO-ADB152','PRO-ADB161','PRO-ADB162',
 # 'PRO-ADB171','PRO-ADB172','PRO-ADB191','PRO-ADB192','PRO-ADB201','PRO-ADB202','PRO-ADB211','PRO-ADB212','PRO-ADB231','PRO-ADB232',
 # 'PRO-ADB241','PRO-ADB242']
 
-# list_of_db=['PRO-ADB311','PRO-ADB312','PRO-ADB321',
-# 'PRO-ADB322','PRO-ADB331','PRO-ADB332','PRO-ADB341','PRO-ADB342','PRO-ADB351','PRO-ADB352','PRO-ADB361','PRO-ADB362']
+# list_of_db=['PRO-ADB311']
 
-#
-list_of_db=['PRO-ADB311','PRO-ADB312','PRO-ADB321','PRO-ADB322','PRO-ADB331',
-            'PRO-ADB332','PRO-ADB341','PRO-ADB342','PRO-ADB351','PRO-ADB352','PRO-ADB361','PRO-ADB362']
-
-
-# list_of_db=['PRO-ADB341']
+     #EU PODs
+list_of_db=['PRO-ADB311','PRO-ADB312','PRO-ADB321','PRO-ADB322','PRO-ADB331','PRO-ADB332','PRO-ADB341','PRO-ADB342']
+#             'PRO-ADB332','PRO-ADB341','PRO-ADB342','PRO-ADB351','PRO-ADB352','PRO-ADB361','PRO-ADB362']
 
 
+# list_of_db=['PRO-ADB362']
 
-# list_of_db=['OPS-STG-ADB011','OPS-STG-ADB012','OPS-STG-ADB021','OPS-STG-ADB022']
+
+
+
 
 # with open('31-36pods.log', 'w') as file:
 #     for db in list_of_db:
@@ -43,12 +47,20 @@ list_of_db=['PRO-ADB311','PRO-ADB312','PRO-ADB321','PRO-ADB322','PRO-ADB331',
 #                 file.writelines(line+'\n')
 
 for instance in list_of_db:
-    connection =  cx_Oracle.connect(user="zportal", password="Minas_13Lugrom",
+    connection =  cx_Oracle.connect(user="system", password="euLagoon0102",
                                        dsn=instance)
 
     with open('output_'+instance+'.csv','w') as file:
         writer = csv.writer(file)
         cursor = connection.cursor()
-        result = cursor.execute('''select count(*) from zportal.VRAP_MAILBOX_GRANTS''')
+        result = cursor.execute('''
+SELECT u.brandid, u.servicelevel, u.packageid, u.userid, up.privilegename, m.mailboxid, m.pin
+FROM zportal.mailboxes m
+     JOIN zportal.users u ON m.userid = u.userid
+     JOIN zportal.userprivs up ON u.privilegeid = up.privilegeid
+WHERE u.brandid IN (7710, 7010)    -- BT Vodafone
+  AND BITAND(u.testerflag, 1) != 1 -- not test user
+  AND m.pin IN ('159', '18001', '159000')
+ORDER BY u.brandid, u.servicelevel, u.packageid, u.userid''')
         writer.writerows(result)
 
