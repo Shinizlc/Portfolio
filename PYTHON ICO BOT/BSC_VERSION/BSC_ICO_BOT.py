@@ -20,7 +20,7 @@ class ICO_BOT:
     my_address_in_bsc = '0x96670E97EB5fe41Fbfe0Df83F1eA24aA14c26E86'
     private_key = 'ce3038308761279b92fcffb1b8ae7dbd5ce113463a663257438e3945353e21d1'
 
-    wbnb_buy_threshold = 10_000_000_000_000_000 #0.01 BNB = 10_000_000_000_000_000
+    wbnb_buy_threshold = 30_000_000_000_000_000 #0.01 BNB = 10_000_000_000_000_000
     # weth_allowance_threshold = 10_000_000_000_000_000_000
     gas = 500000
     slippage_tolerance = .5  ### 1 - 0.3(30%)

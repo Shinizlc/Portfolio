@@ -21,10 +21,10 @@ class ICO_BOT:
     my_address_in_bsc = '0x96670E97EB5fe41Fbfe0Df83F1eA24aA14c26E86'
     private_key = 'ce3038308761279b92fcffb1b8ae7dbd5ce113463a663257438e3945353e21d1'
 
-    wbnb_buy_threshold = 10_000_000_000_000_000 #0.01 BNB = 10_000_000_000_000_000
+    wbnb_buy_threshold = 20_000_000_000_000_000 #0.01 BNB = 10_000_000_000_000_000
     # weth_allowance_threshold = 10_000_000_000_000_000_000
     gas = 500000
-    slippage_tolerance = .1  ### 1 - 0.3(30%)
+    slippage_tolerance = .7  ### 1 - 0.2(20%)
     honeyspot_buy_value = 1_000_000_000_000
 
     wbnb_abi  = json.loads('[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"guy","type":"address"},{"name":"wad","type":"uint256"}],"name":"approve","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"src","type":"address"},{"name":"dst","type":"address"},{"name":"wad","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"wad","type":"uint256"}],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"balanceOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"dst","type":"address"},{"name":"wad","type":"uint256"}],"name":"transfer","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"deposit","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"address"}],"name":"allowance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":true,"name":"guy","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":true,"name":"dst","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"dst","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"src","type":"address"},{"indexed":false,"name":"wad","type":"uint256"}],"name":"Withdrawal","type":"event"}]')
@@ -185,12 +185,12 @@ class ICO_BOT:
                 else:
                     # check the liquidity of the pair
                     liquidity = self.liquidity_check(pair)
-                    decimals = self.get_token_decimals(token_out)
-                    logger.warning(f'DECIMALS: {decimals}')
+                    # decimals = self.get_token_decimals(token_out)
+                    # logger.warning(f'DECIMALS: {decimals}')
                     logger.warning(f'Liquidity: {liquidity}')
 
                     # if  and self.is_owner_renounced(token_out) and not self.is_scam(token_out):
-                    if liquidity >= 0.3 and not self.is_scam(token_out):
+                    if liquidity >= 2 and not self.is_scam(token_out):
                         print('tokens will be swapped')
                         # state = self.honeypot_check(token_in, token_out)
                         #
