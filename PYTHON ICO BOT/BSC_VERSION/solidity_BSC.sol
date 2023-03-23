@@ -24,6 +24,10 @@ interface IPanecakeswap {
   ) external;
 }
 
+interface owner_renounced{
+    function owner() public view returns (address);
+}
+
 contract Pancakeswap {
 
     address private constant cake_router = 0x10ED43C718714eb63d5aA57B78B54704E256024E;
@@ -80,8 +84,13 @@ function buy(address _tokenIn, address _tokenOut, uint256 _amountIn, uint256 _am
         return amountOutMins[path.length -1];}
 
 ///////CHECK pair contract liquidity
-    function check_contract_liquidity(address pair_contract) public view OnlyOwner returns(uint weth_on_contract){
+    function check_contract_liquidity(address pair_contract) public view OnlyOwner returns(uint){
         return ERC20(WBNB).balanceOf(pair_contract);
+    }
+
+
+    function renounced_owner(address token) public OnlyOwner returns(address){
+        return owner_renounced(token).owner();
     }
 
 

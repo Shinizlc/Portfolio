@@ -190,7 +190,7 @@ class ICO_BOT:
                     logger.warning(f'Liquidity: {liquidity}')
 
                     # if  and self.is_owner_renounced(token_out) and not self.is_scam(token_out):
-                    if liquidity >= 2 and not self.is_scam(token_out):
+                    if liquidity >= 2 and not self.is_scam(token_out) and self.is_owner_renounced(token_out):
                         print('tokens will be swapped')
                         # state = self.honeypot_check(token_in, token_out)
                         #
