@@ -214,9 +214,10 @@ class Buy_sell_notification:
 
 if __name__ == '__main__':
     coins=['AVAXUSDT','DOTUSDT','BTCUSDT','GLMRUSDT','MOVRUSDT','KSMUSDT','ETHUSDT','UNIUSDT','ATOMUSDT','BNBUSDT','NEARUSDT','FILUSDT']
+    # coins = ['FILUSDT']
     for c in coins:
         processes=[]
-        p=Process(target=Buy_sell_notification,args=(c,))
+        p=Thread(target=Buy_sell_notification,args=(c,))
         p.start()
 
 
